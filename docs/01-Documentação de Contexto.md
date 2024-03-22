@@ -6,44 +6,38 @@ Considerando que, no censo de 2022, a quantidade de pessoas com mais de 60 anos 
 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A dificuldade dos idosos com a tecnologia é um problema complexo que pode ter várias causas e impactos em suas vidas. Em primeiro lugar, muitos não foram expostos desde cedo a dispositivos eletrônicos e computadores, o que pode dificultar sua compreensão e uso dessas tecnologias mais recentes. Além disso, muitos aplicativos e dispositivos são projetados com ênfase na estética e na funcionalidade avançada, deixando de lado a acessibilidade e a usabilidade para o público de terceira idade. A mudança no estilo de vida também pode ser desafiadora para os idosos, pois a tecnologia está cada vez mais integrada às atividades diárias, como comunicação, acesso a informações, compras e até mesmo cuidados de saúde. A escassez de acessos a recursos específicos para a terceira idade é uma questão muito importante, com a falta dela pode resultar em isolamento digital e exclusão social, tornando crucial o desenvolvimento de soluções inclusivas e acessíveis para os idosos.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Promover a inclusão digital e autonomia de pessoas idosas no uso de tecnologias digitais, facilitando o acesso a serviços online e a comunicação interpessoal.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, destacamos:
+Fornecer tutoriais fáceis e acessíveis sobre como realizar tarefas cotidianas com o uso de smartphones e computadores, como: 
+Conectar nas redes sem fio (Bluetooth e Wi-Fi);
+Baixar aplicativos bancários de acordo com a loja de aplicativos do celular;
+Usar redes sociais e aplicativos de mensagens (ex: Facebook, Instagram, Whatsapp).
+Assistir vídeos e ouvir músicas (Youtube, Tik Tok).
+Tirar fotos e gravar vídeos.
+Criar um ambiente seguro e intuitivo para que os idosos possam explorar as tecnologias digitais sem medo de cometer erros.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Segundo pesquisa realizada pela Confederação Nacional de Dirigentes Lojistas (CNDL), nos últimos anos, o percentual de pessoas com mais de 60 anos no Brasil que possuem acesso à internet é de 97%. Considerando esse avanço, é essencial que cidadãos idosos tenham domínio da tecnologia. O presente projeto se faz necessário, justamente para introduzir o idoso às novas tecnologias, tais como redes sociais e configurar o smartphone, para que o mesmo adquira autonomia na utilização destes recursos, ampliando suas possibilidades de comunicação e de relacionamento interpessoal.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Sabemos que todos nós em algum momento tivemos ou iremos ter certo nível de dificuldade para utilizar algum tipo de tecnologia no nosso dia a dia, e quando nos referimos às pessoas idosas, essa questão se torna ainda mais difícil. Portanto, o foco deste trabalho está nas pessoas que estão na terceira idade.
+Deste modo, estabeleceu-se como público-alvo desta solução pessoas que enfrentam diversas dificuldades para utilizar sites e aplicativos, manusear computadores e aparelhos celulares, mas que desejam ter um contato mais próximo com essas tecnologias e ter uma maior habilidade para utilizar os recursos tecnológicos disponíveis atualmente. Observando esse cenário, identificamos as principais necessidades a serem atendidas:
+ - Pouca ou nenhuma familiaridade com redes sociais, dificultando assim a socialização e integração no núcleo familiar, de amigos e na comunidade em geral.
+ - Dificuldade para manusear computadores e smartphones, ligar, conectar e utilizar esses aparelhos.
+ - Bloqueio ou perda de senhas, tanto em aplicativos quanto em equipamentos.
+ - Envio de mensagens por engano, por não terem domínio de aplicativos e das funcionalidades dos aparelhos.
+ - Enfrentam obstáculos para baixar aplicativos no celular.
+ - Alto nível de complexidade no uso de determinados aplicativos, como os de serviços bancários e de streamings, por exemplo.
+Além das pessoas classificadas dentro do grupo de terceira idade (sessenta anos ou mais), identificamos também um grupo de pessoas que ainda não estão nesta faixa etária, mas que compartilham de muitas dessas questões e necessitam de auxílio e orientação tecnológica.
+Neste grupo de pessoas, fazem parte homens e mulheres, que possuem certo domínio de algumas tecnologias, mas enfrentam dificuldades para se atualizarem dos serviços e aplicações disponibilizadas a todo momento, com o avanço recorrente da tecnologia. Entre as questões apresentadas, foram:
+ - Dificuldades de adaptação para os novos computadores e smartphones super modernos.
+ - Falta de familiaridade com certas linguagens e termos tecnológicos.
+ - Lentidão para acompanhar a evolução tecnológica e tendências do mercado.
