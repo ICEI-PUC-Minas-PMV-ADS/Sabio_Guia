@@ -1,6 +1,9 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Nos últimos anos, os avanços tecnológicos têm redefinido a maneira como nos comunicamos e interagimos com o mundo ao nosso redor. No entanto, para uma parcela significativa da população idosa, essa transformação representa um desafio considerável. É crucial tornar a tecnologia acessível a todas as faixas etárias, incluindo os idosos, pois ela pode ser uma aliada poderosa na vida dos mais velhos, oferecendo oportunidades de conexão, aprendizado e entretenimento.
+
+Considerando que, no censo de 2022, a quantidade de pessoas com mais de 60 anos ultrapassa a marca dos 32 milhões de indivíduos (IBGE, 2022), no Brasil, torna-se ainda mais evidente a importância de projetos como este. Adiante, segundo projeções feitas pelo próprio IBGE, espera-se que até 2060 haja mais de 58 milhões de indivíduos com mais de 65 anos (IBGE, 2022). Inspirados por essa visão inclusiva, surge o presente projeto, que visa desenvolver uma aplicação web front-end voltada especificamente para atender às necessidades e preferências dos idosos. 
+
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
