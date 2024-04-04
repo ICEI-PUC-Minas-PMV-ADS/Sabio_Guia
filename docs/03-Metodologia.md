@@ -12,8 +12,8 @@ Durante as discussões de como seria a resolução do projeto, foi decidido a ad
 Desta maneira a nossa equipe está dividida da seguinte forma:
 
 <ul>
-  <li>Scrum Master: </li>
-  <li>Product Owner:  </li>
+  <li>Product Owner: </li>
+  <li>Scrum Master:  </li>
   <li>Equipe de Desenvolvimento: </li>
 </ul>
 
