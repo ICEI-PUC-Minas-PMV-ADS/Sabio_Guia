@@ -32,9 +32,8 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/971 e é apresentado, no estado atual, na figura abaixo:
 
-
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/109766719/3cd55496-20d1-4cca-b673-db89f76cba20">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/109766719/ce598a57-1231-4aa2-bd29-aed4a8f7a659">
     <figcaption>Figura 1 - Tela do kanban no GitHub utilizada pelo grupo</figcaption>
 </figure> 
   
@@ -51,9 +50,8 @@ O quadro kanban do grupo no GitHub está disponível no link https://github.com/
   <li>Testes (Tests)</li>
 </ul>
 
-
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/109766719/c3e76b55-9cac-44bf-82be-6669d818a354)"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/109766719/9a701a8f-a928-43ea-871c-f0812cc0da32"
 </figure>
 
   Figura 2 - Tela do esquema de cores e categorias
@@ -67,11 +65,7 @@ As ferramentas empregadas no projeto são:
 - Ferramentas de desenho de tela (_wireframing_)
 
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
 <p>Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e MarvelApp, apresentadas com seu propósito na tabela que se segue.<p/>
 
