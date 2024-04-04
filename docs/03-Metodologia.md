@@ -12,10 +12,10 @@ Durante as discussões de como seria a resolução do projeto, foi decidido a ad
 Desta maneira a nossa equipe está dividida da seguinte forma:
 
 <ul>
-  <li>Product Owner: </li>
-  <li>Scrum Master:  </li>
-  <li>Equipe de Desenvolvimento: </li>
-  <li>Equipe de Design: </li>
+  <li>Product Owner: Leonardo Fernandes Costa </li>
+  <li>Scrum Master: Marilio César Freitas Santos Vieira </li>
+  <li>Equipe de Desenvolvimento: Leonardo Fernandes Costa, Carolina da Costa Lucas, Fernanda Sayuri Kano, Fernando Diniz Rocha, Marilio César Freitas Santos Vieira, Nayara Aparecida de Paula Cupertino</li>
+  <li>Equipe de Design: Fernanda Sayuri Kano</li>
 </ul>
 
 ## Processo
