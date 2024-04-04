@@ -15,7 +15,6 @@ Desta maneira a nossa equipe está dividida da seguinte forma:
   <li>Scrum Master: </li>
   <li>Product Owner:  </li>
   <li>Equipe de Desenvolvimento: </li>
-  <li>Equipe de Design: </li>
 </ul>
 
 ## Processo
