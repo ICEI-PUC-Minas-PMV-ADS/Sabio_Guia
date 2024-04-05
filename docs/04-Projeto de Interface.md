@@ -1,11 +1,15 @@
 
 ## Protótipo de média fidelidade
 
-As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 3 grandes blocos, descritos a seguir. São eles:
+As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 4 grandes blocos, descritos a seguir. São eles:
 <ul>
-  <li>Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);</li>
-  <li>Conteúdo - apresenta o conteúdo da tela em questão;</li>
-  <li>Rodapé - apresenta informações sobre os direitos autorais.</li>
+  <li>Cabeçalho - local onde estão dispostos a logo da aplicação web e navegação principal do site (menu da aplicação) que contem: Página Inicial, Sobre, Tutoriais, Fórum e os botões de cadastro e login;</li>
+  <li>Conteúdo - apresenta o conteúdo da tela em questão e é dividido em 3 sessões
+    1. Banner com imagens explicativas da aplicação;
+    2. Serviços com três cards onde vão levar para as funcionalidades disponiveis;
+    3. Depoimento dos nossos usuários;
+  </li>
+  <li>Rodapé - apresenta o nome da aplicação e informações sobre os direitos autorais.</li>
 </ul>
 
 
