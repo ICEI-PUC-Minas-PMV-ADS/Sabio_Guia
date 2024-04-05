@@ -1,5 +1,5 @@
 
-## Protótipo de baixa fidelidade
+## Protótipo de média fidelidade
 
 As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 3 grandes blocos, descritos a seguir. São eles:
 <ul>
