@@ -1,11 +1,22 @@
 
-# Projeto de Interface
+## Protótipo de baixa fidelidade
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 3 grandes blocos, descritos a seguir. São eles:
+<ul>
+  <li>Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);</li>
+  <li>Conteúdo - apresenta o conteúdo da tela em questão;</li>
+  <li>Rodapé - apresenta informações sobre os direitos autorais.</li>
+</ul>
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/109766719/a46d9292-9a0c-4d82-8bbb-2a9567dad871">
+</figure> 
+
+ Figura 2 - Estrutura padrão do site
+ 
+<hr>
+
 
 ## Diagrama de Fluxo
 
