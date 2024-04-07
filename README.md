@@ -6,7 +6,7 @@
 
 `1º Semestre 2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral do Sábio Guia é propiciar a melhoria da qualidade de vida das pessoas na terceira idade, integrando-as ao mundo digital e valorizando a cidadania de quem ainda tem muito a aprender e contribuir, em sintonia com o seu tempo.
 
 ## Integrantes
 
