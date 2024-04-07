@@ -6,20 +6,20 @@ Considerando que, no censo de 2022, a quantidade de pessoas com mais de 60 anos 
 
 
 ## Problema
-A dificuldade dos idosos com a tecnologia é um problema complexo que pode ter várias causas e impactos em suas vidas. Em primeiro lugar, muitos não foram expostos desde cedo a dispositivos eletrônicos e computadores, o que pode dificultar sua compreensão e uso dessas tecnologias mais recentes. Além disso, muitos aplicativos e dispositivos são projetados com ênfase na estética e na funcionalidade avançada, deixando de lado a acessibilidade e a usabilidade para o público de terceira idade. A mudança no estilo de vida também pode ser desafiadora para os idosos, pois a tecnologia está cada vez mais integrada às atividades diárias, como comunicação, acesso a informações, compras e até mesmo cuidados de saúde. A escassez de acessos a recursos específicos para a terceira idade é uma questão muito importante, com a falta dela pode resultar em isolamento digital e exclusão social, tornando crucial o desenvolvimento de soluções inclusivas e acessíveis para os idosos.
+
+Perante o exposto, com acesso ao Sábio Guia desejamos combater a falta de auxílio enfrentada pelo idosos, uma vez que nem todos tem um familiar ou amigo que possa auxiliá-lo nessa incursão ao universo digital.
 
 ## Objetivos
 
-Promover a inclusão digital e autonomia de pessoas idosas no uso de tecnologias digitais, facilitando o acesso a serviços online e a comunicação interpessoal.
+O objetivo geral do Sábio Guia é propiciar a melhoria da qualidade de vida das pessoas na terceira idade, integrando-as ao mundo digital e valorizando a cidadania de quem ainda tem muito a aprender e contribuir, em sintonia com o seu tempo. Como objetivos específicos destacamos:
 
-Como objetivos específicos, destacamos:
-Fornecer tutoriais fáceis e acessíveis sobre como realizar tarefas cotidianas com o uso de smartphones e computadores, como: 
-Conectar nas redes sem fio (Bluetooth e Wi-Fi);
-Baixar aplicativos bancários de acordo com a loja de aplicativos do celular;
-Usar redes sociais e aplicativos de mensagens (ex: Facebook, Instagram, Whatsapp).
-Assistir vídeos e ouvir músicas (Youtube, Tik Tok).
-Tirar fotos e gravar vídeos.
-Criar um ambiente seguro e intuitivo para que os idosos possam explorar as tecnologias digitais sem medo de cometer erros.
+•	Capacitar os idosos fornecendo recursos educacionais e práticos sobre tecnologia, saúde, bem-estar e lazer.
+
+•	Promover a inclusão digital, facilitando o acesso dos idosos aos benefícios das novas tecnologias.
+
+•	Estimular o compartilhamento de experiências e conhecimentos entre os idosos, criando uma comunidade virtual vibrante e solidária.
+
+•	Inspirar os idosos a explorarem novas atividades, hobbies e oportunidades de aprendizado, incentivando um estilo de vida ativo e enriquecedor.
 
 
 ## Justificativa
