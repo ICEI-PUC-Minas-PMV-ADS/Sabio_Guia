@@ -35,7 +35,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Idoso | editar o meu perfil no site com foto e nome | para personalizar a minha experiência. |
 |Idoso | ferramentas de acessibilidade para a apliação das letras | facilitar minha usabilidade no site. |
 |Idoso | ferramentas de acessibilidade para mudança do tema para escuro ou claro  | ficar mais confortavel a minha navegação no site.  |
-|Idoso  | botão para voltar à página inicial sem a necessidade de fechar o site  | escolher outro tema. |
+|Idoso  | botão para voltar à página inicial sem a necessidade de fechar o site  | escolher outro curso/tutorial. |
 |Idoso |  preciso de suporte multimidia, incluindo vídeos, imagens e texto | para que eu possa entender os tutoriais de acordo com meu estilo de aprendizado.  |
 |Idoso | interagir com as publicações | expor a minha opinião sobre o tutorial |
 |Idoso | compartilhar o conteúdo fora do site | que outras pessoas também absorvam conhecimento. |
