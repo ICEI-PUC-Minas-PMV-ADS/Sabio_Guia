@@ -31,7 +31,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
-|Idoso | criar uma conta no site | para poder interagir com os tutoriais. |
+|Idoso | criar uma conta no site | para poder interagir na página dos tutoriais. |
 |Idoso | editar o meu perfil no site com foto e nome | para personalizar a minha experiência. |
 |Idoso | ferramentas de acessibilidade para a apliação das letras | facilitar minha usabilidade no site. |
 |Idoso | ferramentas de acessibilidade para mudança do tema para escuro ou claro  | ficar mais confortavel a minha navegação no site.  |
