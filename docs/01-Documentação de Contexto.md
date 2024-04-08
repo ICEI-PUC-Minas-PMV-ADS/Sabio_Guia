@@ -11,15 +11,17 @@ Perante o exposto, com acesso ao Sábio Guia desejamos combater a falta de auxí
 
 ## Objetivos
 
-O objetivo geral do Sábio Guia é propiciar a melhoria da qualidade de vida das pessoas na terceira idade, integrando-as ao mundo digital e valorizando a cidadania de quem ainda tem muito a aprender e contribuir, em sintonia com o seu tempo. Como objetivos específicos destacamos:
+O objetivo geral do Sábio Guia é promover a inclusão digital e autonomia de pessoas idosas no uso de tecnologias digitais, facilitando o acesso a serviços online e a comunicação interpessoal. 
 
-•	Capacitar os idosos fornecendo recursos educacionais e práticos sobre tecnologia, saúde, bem-estar e lazer.
+Como objetivos específicos destacamos:
 
-•	Promover a inclusão digital, facilitando o acesso dos idosos aos benefícios das novas tecnologias.
+<ul>
+<li>Oferecer tutoriais fáceis e acessíveis sobre como realizar tarefas cotidianas com o uso de smartphones e computadores;</li>
+<li>Criar um ambiente seguro e intuitivo para que os idosos possam explorar as tecnologias digitais sem medo de cometer erros;</li>
+<li>Conectar os idosos por meio de comentários que estarão disponiveis na página do tutoriais para compartilharem o que acharam do curso.</li>
+</ul>
 
-•	Estimular o compartilhamento de experiências e conhecimentos entre os idosos, criando uma comunidade virtual vibrante e solidária.
 
-•	Inspirar os idosos a explorarem novas atividades, hobbies e oportunidades de aprendizado, incentivando um estilo de vida ativo e enriquecedor.
 
 
 ## Justificativa
