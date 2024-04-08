@@ -38,8 +38,3 @@ Deste modo, estabeleceu-se como público-alvo desta solução pessoas que enfren
  - Envio de mensagens por engano, por não terem domínio de aplicativos e das funcionalidades dos aparelhos.
  - Enfrentam obstáculos para baixar aplicativos no celular.
  - Alto nível de complexidade no uso de determinados aplicativos, como os de serviços bancários e de streamings, por exemplo.
-Além das pessoas classificadas dentro do grupo de terceira idade (sessenta anos ou mais), identificamos também um grupo de pessoas que ainda não estão nesta faixa etária, mas que compartilham de muitas dessas questões e necessitam de auxílio e orientação tecnológica.
-Neste grupo de pessoas, fazem parte homens e mulheres, que possuem certo domínio de algumas tecnologias, mas enfrentam dificuldades para se atualizarem dos serviços e aplicações disponibilizadas a todo momento, com o avanço recorrente da tecnologia. Entre as questões apresentadas, foram:
- - Dificuldades de adaptação para os novos computadores e smartphones super modernos.
- - Falta de familiaridade com certas linguagens e termos tecnológicos.
- - Lentidão para acompanhar a evolução tecnológica e tendências do mercado.
