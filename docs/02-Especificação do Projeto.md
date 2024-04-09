@@ -54,6 +54,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-06| Permitir ao usuário opções de vídeos tutoriais, imagens explicativas e texto.   | ALTA |
 |RF-07| Permitir ao usuário realizar comentários e sugestões na página dos tutoriais.  | MÉDIA |
 |RF-08| Permitir ao usuário o compartilhamento do contéudo.    | MÉDIA |
+|RF-09| Permitir ao usuário a recuperação de senha.   | ALTA |
+|RF-10| Permitir ao usuário a exclusão de sua conta.   | ALTA |
 
 **Prioridade: Alta / Média / Baixa.  
 
