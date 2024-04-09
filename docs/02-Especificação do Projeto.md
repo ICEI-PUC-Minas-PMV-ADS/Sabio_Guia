@@ -66,7 +66,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RNF-01| A aplicação deve ser compatível e homologado pelos navegadores Google Chrome, Firefox e Microsoft Edge para garantir sua acessibilidade pública na Internet.  | ALTA | 
 |RNF-02| A aplicação deverá ser responsiva, adaptando-se aos navegadores Google Chrome, Firefox e Microsoft Edge.  | ALTA | 
 |RNF-03| A aplicação deve ter bom nível de contraste entre os elementos da tela.  | MÉDIA | 
-|RNF-04| A aplicação deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge.  | ALTA | 
+|RNF-04| A aplicação deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge.  | ALTA |
+|RNF-05| A aplicação deve exigir senhas que atendam a critérios de segurança, incluindo a inclusão de letras maiúsculas, números e caracteres especiais.  | ALTA | 
 
 
 **Prioridade: Alta / Média / Baixa.
