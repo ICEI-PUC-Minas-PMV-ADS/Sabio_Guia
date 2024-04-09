@@ -64,7 +64,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-01| A aplicação deve ser publicada em um ambiente acessível público na Internet.  | ALTA | 
-|RNF-02| A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.  | ALTA | 
+|RNF-02| A aplicação deverá ser responsiva, adaptando-se aos navegadores Google Chrome, Firefox e Microsoft Edge.  | ALTA | 
 |RNF-03| A aplicação deve ter bom nível de contraste entre os elementos da tela.  | MÉDIA | 
 |RNF-04| A aplicação deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge.  | ALTA | 
 
