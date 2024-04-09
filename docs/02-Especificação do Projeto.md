@@ -38,7 +38,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Idoso | botão para voltar à página inicial sem a necessidade de fechar o site  | escolher outro curso/tutorial. |
 |Idoso |  suporte multimidia, incluindo vídeos, imagens e texto | para que eu possa entender os tutoriais de acordo com meu estilo de aprendizado.  |
 |Idoso | interagir com as publicações | expor a minha opinião sobre o tutorial |
-|Idoso | compartilhar o conteúdo fora do site | que outras pessoas também absorvam conhecimento. |
+|Idoso | compartilhar o conteúdo fora do site | que outras pessoas também absorvam o conhecimento. |
+|Idoso | recuperar minha senha | que eu possa ter a segurança de caso eu esqueça a senha, trocar para acessar meu perfil. |
+|Idoso | excuir a minha conta | ter a escolha de ter ou não conta no site. |
 
 # Requisitos
 
