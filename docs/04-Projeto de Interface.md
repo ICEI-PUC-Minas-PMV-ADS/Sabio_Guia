@@ -119,7 +119,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
   
 <figure> 
-  <figcaption> Figura 10 - Tela de Editar Perfil
+  <figcaption> Figura 11 - Tela de Curso Específico
 </figure> 
 <hr>
 
@@ -132,6 +132,6 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
   
 <figure> 
-  <figcaption> Figura 11 - Tela de Avaliar o curso 
+  <figcaption> Figura 12 - Tela de Avaliar o curso 
 </figure> 
 <hr>
