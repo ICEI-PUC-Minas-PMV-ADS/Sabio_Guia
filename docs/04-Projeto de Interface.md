@@ -5,7 +5,7 @@
 
 O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o <a href="https://marvelapp.com/prototype/6h24j32">ambiente MarvelApp do projeto</a>.
 
-  ![FluxoInteração_SabioGuia](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/124324628/32a5fc2d-248c-4a82-ad29-bb9c84b8d3b3)
+  ![FluxoInteração_SabioGuia](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/112204495/196c90cd-b935-448a-915d-18e965f50f3c)
 
   
 <figure> 
