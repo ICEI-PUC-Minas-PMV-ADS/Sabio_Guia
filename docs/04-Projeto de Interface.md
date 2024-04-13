@@ -29,6 +29,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/109766719/a46d9292-9a0c-4d82-8bbb-2a9567dad871">
 </figure>
+
  Figura 2 - Estrutura padrão do site
  <hr>
 
