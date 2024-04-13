@@ -93,7 +93,9 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
     
 <h3><b>Tela - Avaliar o Curso</b></h3>
 <p>A tela de Avaliar o Curso apresenta um formulário para que o usuário registre sua opinião sobre o site e os cursos disponibilizados.</p>
+
 ![Avaliar curso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/133662274/fd0507d0-6387-483f-a23b-0e5d566ffb88)
+
 <figure> 
   <figcaption> Figura 12 - Tela de Avaliar o curso 
 </figure> 
