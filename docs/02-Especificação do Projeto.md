@@ -31,16 +31,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
-|Idoso | criar uma conta no site | para poder interagir na página dos tutoriais. |
-|Idoso | editar o meu perfil no site com foto e nome | para personalizar a minha experiência. |
-|Idoso | ferramenta de acessibilidade de apliação das letras | facilitar minha usabilidade no site. |
-|Idoso | ferramenta de acessibilidade de mudança do tema para escuro ou claro  | ficar mais confortavel a minha navegação no site.  |
-|Idoso | botão para voltar à página inicial sem a necessidade de fechar o site  | escolher outro curso/tutorial. |
-|Idoso |  suporte multimidia, incluindo vídeos, imagens e texto | para que eu possa entender os tutoriais de acordo com meu estilo de aprendizado.  |
-|Idoso | interagir com as publicações | expor a minha opinião sobre o tutorial |
-|Idoso | compartilhar o conteúdo fora do site | que outras pessoas também absorvam o conhecimento. |
-|Idoso | recuperar minha senha | que eu possa ter a segurança de caso eu esqueça a senha, trocar para acessar meu perfil. |
+|Idoso | criar uma conta no site | poder interagir na página dos tutoriais. |
+|Idoso | editar o meu perfil no site com foto e nome | personalizar a minha experiência. |
+|Idoso | alterar o tamanho da fonte | facilitar minha usabilidade no site. |
+|Idoso | avaliar o tutorial  | expor minha opinião.  |
+|Idoso | realizar sugestões  | aprimoramento do site. |
+|Idoso | conhecer o intuito da criação do site | melhorar meus conhecimentos.  |
+|Idoso | realizar comentários | expor a minha opinião sobre o tutorial. |
+|Idoso | recuperar minha senha | caso eu a esqueça, consiga trocá-la e, assim acessar meu perfil novamente. |
 |Idoso | excuir a minha conta | ter a escolha de ter ou não conta no site. |
+|Idoso | visualizar os depoimentos dos outros usuários | inteirar-se sobre suas opiniões. |
 
 # Requisitos
 
@@ -48,16 +48,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Permitir ao usuário a criação de conta   | ALTA | 
-|RF-02| Permitir ao usuário a edição de seu perfil no site   | MÉDIA | 
-|RF-03| Permitir ao usuário uma opção para apliação do texto.   | ALTA | 
-|RF-04| Permitir ao usuário uma opção para mudar contraste da tela.   | ALTA | 
-|RF-05| Permitir ao usuário uma opção para retroceder à página inicial.    | ALTA |
-|RF-06| Permitir ao usuário opções de vídeos tutoriais, imagens explicativas e texto.   | ALTA |
-|RF-07| Permitir ao usuário realizar comentários e sugestões na página dos tutoriais.  | MÉDIA |
-|RF-08| Permitir ao usuário o compartilhamento do contéudo.    | MÉDIA |
-|RF-09| Permitir ao usuário a recuperação de senha.   | ALTA |
-|RF-10| Permitir ao usuário a exclusão de sua conta.   | ALTA |
+|RF-01| Permitir ao usuário a criação de conta.   | ALTA |
+|RF-02| Permitir ao usuário a edição de seu perfil no site.  | MÉDIA |
+|RF-03| Permitir ao usuário uma opção para ampliação do texto.   | MÉDIA | 
+|RF-04| Permitir ao usuário avaliar o tutorial.   | ALTA |
+|RF-05| Permitir ao usuário realizar sugestões sobre o tutorial.   | ALTA |
+|RF-06| Permitir ao usuário acessar a página Sobre.   | ALTA |
+|RF-07| Permitir ao usuário realizar comentários na página do tutorial.  | MÉDIA |
+|RF-08| Permitir ao usuário a recuperação de senha.   | ALTA |
+|RF-09| Permitir ao usuário a exclusão de sua conta.   | ALTA |
+|RF-10| Permitir ao usuário visualizar depoimentos dos demais usuários.    | MÉDIA |
 
 **Prioridade: Alta / Média / Baixa.  
 
@@ -67,11 +67,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| A aplicação deve ser compatível e homologado pelos navegadores Google Chrome, Firefox e Microsoft Edge para garantir sua acessibilidade pública na Internet.  | ALTA | 
-|RNF-02| A aplicação deverá ser responsiva, adaptando-se aos navegadores Google Chrome, Firefox e Microsoft Edge.  | ALTA | 
-|RNF-03| A aplicação deve ter bom nível de contraste entre os elementos da tela.  | MÉDIA | 
-|RNF-04| A aplicação deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge.  | ALTA |
-|RNF-05| A aplicação deve exigir senhas que atendam a critérios de segurança, incluindo a inclusão de letras maiúsculas, números e caracteres especiais.  | ALTA | 
+|RNF-01| Cumprir todas as leis e regulamentos aplicáveis.  | ALTA |
+|RNF-02| Ser responsiva, adaptando-se aos navegadores Google Chrome, Firefox e Microsoft Edge.  | ALTA |
+|RNF-03| Ter bom nível de contraste entre os elementos da tela.  | MÉDIA |
+|RNF-04| Ser confiável e atender aos requisitos do usuário. | ALTA |
+|RNF-05| Exigir senhas que atendam aos critérios de segurança, incluindo a inserção de letras maiúsculas, minúsculas, números e caracteres especiais.  | ALTA |
 
 
 **Prioridade: Alta / Média / Baixa.
