@@ -73,7 +73,7 @@ O editor de código foi escolhido porque ele possui uma integração com o siste
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/blob/main/README.md  |
 |Documentos do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia  |
-|Projeto de interface e wireframes | MarvelApp | https://marvelapp.com/prototype/6h24j32 |
+|Projeto de interface e wireframes | MarvelApp | https://marvelapp.com/prototype/6h24j32/screen/94320267 |
 |Gerenciamento do projeto  | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/971 |
 
 ### Estratégia de Organização de Codificação 
