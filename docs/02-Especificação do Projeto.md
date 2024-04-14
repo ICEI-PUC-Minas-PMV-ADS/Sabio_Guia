@@ -50,7 +50,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |------|-----------------------------------------|----|
 |RF-01| Permitir ao usuário a criação de conta.   | ALTA |
 |RF-02| Permitir ao usuário a edição de seu perfil no site.  | MÉDIA |
-|RF-03| Permitir ao usuário uma opção para ampliação do texto.   | MÉDIA | 
+|RF-03| Permitir ao usuário ampliar a fonte no site.   | MÉDIA | 
 |RF-04| Permitir ao usuário avaliar o tutorial.   | ALTA |
 |RF-05| Permitir ao usuário realizar sugestões sobre o tutorial.   | ALTA |
 |RF-06| Permitir ao usuário acessar a página Sobre.   | ALTA |
@@ -60,8 +60,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-10| Permitir ao usuário visualizar depoimentos dos demais usuários.    | MÉDIA |
 
 **Prioridade: Alta / Média / Baixa.  
-
-## Requisitos Não Funcionais
 
 ### Requisitos Não Funcionais
 
