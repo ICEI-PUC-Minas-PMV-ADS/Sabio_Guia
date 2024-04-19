@@ -1,14 +1,13 @@
 let btn = document.querySelector('#verSenha')
 let btnConfirm = document.querySelector('#verConfirmSenha')
 
-
 let nome = document.querySelector('#nome')
 let labelNome = document.querySelector('#labelNome')
 let validNome = false
 
 let email = document.querySelector('#email')
-let labelemail = document.querySelector('#labelemail')
-let validemail = false
+let labelEmail = document.querySelector('#labelEmail')
+let validEmail = false
 
 let senha = document.querySelector('#senha')
 let labelSenha = document.querySelector('#labelSenha')
@@ -35,19 +34,18 @@ nome.addEventListener('keyup', () => {
   }
 })
 
-const emailRegex = /^[^\s@]{5,}@[^\s@]+\.[^\s@]+$/;
-
 email.addEventListener('keyup', () => {
+  const emailRegex = /^[^\s@]{4,}@([^\s@]+\.)+[^\s@]+$/;
   if (!emailRegex.test(email.value)) {
-    labelemail.setAttribute('style', 'color: red');
-    labelemail.innerHTML = 'E-mail *Insira um e-mail válido';
+    labelEmail.setAttribute('style', 'color: red');
+    labelEmail.innerHTML = 'E-mail *Insira um e-mail válido';
     email.setAttribute('style', 'border-color: red');
-    validemail = false;
+    validEmail = false;
   } else {
-    labelemail.setAttribute('style', 'color: green');
-    labelemail.innerHTML = 'E-mail';
+    labelEmail.setAttribute('style', 'color: green');
+    labelEmail.innerHTML = 'E-mail';
     email.setAttribute('style', 'border-color: green');
-    validemail = true;
+    validEmail = true;
   }
 })
 
@@ -80,13 +78,13 @@ confirmSenha.addEventListener('keyup', () => {
 })
 
 function cadastrar(){
-  if(validNome && validemail && validSenha && validConfirmSenha){
+  if(validNome && validEmail && validSenha && validConfirmSenha){
     let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
     
     listaUser.push(
     {
       nomeCad: nome.value,
-      userCad: email.value,
+      emailCad: email.value,
       senhaCad: senha.value
     }
     )

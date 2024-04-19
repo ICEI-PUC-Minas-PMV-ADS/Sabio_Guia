@@ -21,27 +21,27 @@ function entrar(){
   let listaUser = []
   
   let userValid = {
+    nome: null,
     email: null,
-    //user: " ",
     senha: null
   }
   
   listaUser = JSON.parse(localStorage.getItem('listaUser'))
   
-  listaUser.forEach((item) => {
-    if(email.value == item.userCad && senha.value == item.senhaCad){
+  listaUser?.forEach((item) => {
+    if(email.value == item.emailCad && senha.value == item.senhaCad){
        
       userValid = {
-        email: item.emailCad,
-         //user: item.userCad,
+         nome: item.nomeCad,
+         email: item.emailCad,
          senha: item.senhaCad
        }
       
     }
   })
    
-  if(email.value == userValid.user && senha.value == userValid.senha){
-    window.location.href = '../../index.html'
+  if(email.value == userValid.email && senha.value == userValid.senha){
+    window.location.href = '../index.html'
     
     let mathRandom = Math.random().toString(16).substr(2)
     let token = mathRandom + mathRandom
