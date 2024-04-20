@@ -19,10 +19,11 @@ header {
 
 .nav-bar{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-family: "Poppins", sans-serif;
     align-items: center;
     color: #415bbc;
+    
 }
 
 
@@ -49,7 +50,6 @@ header {
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     
-    ;
 }
 
 .Cadastro {
@@ -58,9 +58,14 @@ header {
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: #6985D6;
+    background-color: #F6823F;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    transition: 1s background;
+}
+
+.cadastro:hover {
+    background-color: #3d3d3d;
     transition: 1s background;
 }
 
@@ -72,12 +77,14 @@ footer {
 }
 
 .logo-cabecalho {
-
+    
+    
 }
 
 .img-logo-cabecalho {
     height: 6rem;
     width: 6rem;
+    
     
 }
 
