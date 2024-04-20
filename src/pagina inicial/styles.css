@@ -2,11 +2,9 @@
 
 * {
     margin: 0;
-    border: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+    
 }
 
 main {
@@ -16,7 +14,54 @@ main {
 /*Cabeçalho*/
 header {
     background-color: #415bbc;
-    height: 5rem;
+    height: 4rem;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    color: #415bbc;
+}
+
+
+
+.nav-itens {
+    list-style: none;
+    display: flex;  
+}
+
+.nav-itens>li>a {
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.Entrar {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #6985D6;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    
+    ;
+}
+
+.Cadastro {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #6985D6;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 1s background;
 }
 
 footer {
@@ -26,9 +71,14 @@ footer {
     border: auto;
 }
 
+.logo-cabecalho {
+
+}
+
 .img-logo-cabecalho {
     height: 6rem;
     width: 6rem;
+    
 }
 
 /*Slide de imagens*/
