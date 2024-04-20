@@ -1,0 +1,145 @@
+/* CSS ajustado */
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+main {
+    background-color: #fff9eb;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: #415bbc;
+    height: 5rem;
+}
+
+footer {
+    background-color: #415bbc;
+    height: 10rem;
+    padding-top: 10px;
+    border: auto;
+}
+
+.img-logo-cabecalho {
+    height: 6rem;
+    width: 6rem;
+}
+
+/*Slide de imagens*/
+.carousel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 800px; /* Largura do carrossel */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+}
+
+.slides img {
+    border-radius: 10px;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:  #415bbc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+/*Fim do slide de imagens*/
+
+/*Cards inicio*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn-card {
+    display: inline-block;
+    font-weight: bolder;
+    background-color: #f58440;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f58440;
+}
+
+.card-btn {
+    background-color: #f58440;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    align-self: flex-end; /* Alinha o botão no final do cartão */
+    transition: background-color 0.3s ease;
+}
+
+/*Cards fim*/
+
+.title{
+    color: #f58440;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
