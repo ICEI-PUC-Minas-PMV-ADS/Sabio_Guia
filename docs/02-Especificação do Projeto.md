@@ -65,10 +65,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| Cumprir todas as leis e regulamentos aplicáveis.  | ALTA |
-|RNF-02| Ser responsiva, adaptando-se aos navegadores Google Chrome, Firefox e Microsoft Edge.  | ALTA |
-|RNF-03| Ter bom nível de contraste entre os elementos da tela.  | MÉDIA |
-|RNF-04| Ser confiável e atender aos requisitos do usuário. | ALTA |
+|RNF-01| Ser compativel com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge.   | ALTA |
+|RNF-02| Ser responsivo nos dispositivos: celular, laptop e desktop.  | ALTA |
+|RNF-03| Deve processar requisições do usuário em no máximo 5s. | MÉDIA |
+|RNF-04| Possuir disponibilidade, garantindo que os usuários possam acessá-lo a qualquer momento, sem enfrentar períodos de inatividade. | ALTA |
 |RNF-05| Exigir senhas que atendam aos critérios de segurança, incluindo a inserção de letras maiúsculas, minúsculas, números e caracteres especiais.  | ALTA |
 
 
