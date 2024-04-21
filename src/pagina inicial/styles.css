@@ -153,17 +153,22 @@ button {
 .card-content {
     text-align: center;
     padding: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .card-content h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .card-content p {
     font-size: 1rem;
     color: #666;
     margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-card {
@@ -198,5 +203,85 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
+.title-card {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+/*Cards Depoimentos*/
+
+.title-dep {
+    color: #f58440;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.cards-dep {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    grid-gap: 40px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.card-dep {
+    padding: 20px 30px;
+    box-shadow: 5px 5px 10px #0000001e;
+}
+
+.cards-dep .user {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+    margin-bottom: 15px;
+   
+}
+
+.title-user {
+    
+    color: #414141;
+    font-weight: bold;
+   
+}
+
+.text-dep {
+    color: #414141;
+    text-align:start
+}
+
+.card-dep h3 {
+font-family: 'Poppins', sans-serif;
+margin-bottom: 5px;
+text-align: left;
+}
+
+
+/*Footer*/
+
+.footer {
+    height: 10rem
+}
+
+.img-logo-rodapé {
+    height: 10rem;
+    width: 15rem;
+    align-items: center;
+}
+
+.text-footer {
+    margin: 1em 0;
+    color: white;
+    font-size: 14px;
+    
+}
