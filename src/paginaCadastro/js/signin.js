@@ -1,12 +1,17 @@
-let btn = document.querySelector('.fa-eye')
+let icon = document.querySelector('.bi-eye-fill');
 
-btn.addEventListener('click', ()=>{
-  let inputSenha = document.querySelector('#senha')
+icon.addEventListener('click', () => {
+
+  let inputSenha = document.querySelector('#senha');
   
-  if(inputSenha.getAttribute('type') == 'password'){
-    inputSenha.setAttribute('type', 'text')
+  if (inputSenha.getAttribute('type') === 'password') {
+        inputSenha.setAttribute('type', 'text');
+      icon.classList.remove('bi-eye-fill');
+    icon.classList.add('bi-eye-slash');
   } else {
-    inputSenha.setAttribute('type', 'password')
+       inputSenha.setAttribute('type', 'password');
+      icon.classList.remove('bi-eye-slash');
+    icon.classList.add('bi-eye-fill');
   }
 })
 

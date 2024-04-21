@@ -6,19 +6,23 @@ let msgSuccessAlterarSenha = document.querySelector('#msgSuccessAlterarSenha');
 
 // Adiciona evento de clique ao ícone do olho para a nova senha
 document.querySelector('#verNovaSenha').addEventListener('click', () => {
-  toggleVisibility(novaSenha);
+  toggleVisibility(novaSenha, '#verNovaSenha');
 });
 
 // Adiciona evento de clique ao ícone do olho para a confirmação da nova senha
 document.querySelector('#verConfirmarNovaSenha').addEventListener('click', () => {
-  toggleVisibility(confirmarNovaSenha);
+  toggleVisibility(confirmarNovaSenha, '#verConfirmarNovaSenha');
 });
 
-function toggleVisibility(inputField) {
+function toggleVisibility(inputField, eyeIconId) {
   if (inputField.getAttribute('type') === 'password') {
     inputField.setAttribute('type', 'text');
+    document.querySelector(eyeIconId).classList.remove('bi-eye-fill');
+    document.querySelector(eyeIconId).classList.add('bi-eye-slash');
   } else {
     inputField.setAttribute('type', 'password');
+    document.querySelector(eyeIconId).classList.remove('bi-eye-slash');
+    document.querySelector(eyeIconId).classList.add('bi-eye-fill');
   }
 }
 
