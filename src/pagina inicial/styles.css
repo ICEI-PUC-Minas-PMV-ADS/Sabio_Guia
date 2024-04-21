@@ -30,7 +30,7 @@ header {
 
 .nav-itens {
     list-style: none;
-    display: flex;  
+    display: flex;
 }
 
 .nav-itens>li>a {
@@ -38,6 +38,11 @@ header {
     color: white;
     text-decoration: none;
     
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
 }
 
 .Entrar {
