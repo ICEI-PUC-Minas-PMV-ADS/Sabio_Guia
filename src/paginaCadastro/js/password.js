@@ -4,6 +4,24 @@ let confirmarNovaSenha = document.querySelector('#confirmarNovaSenha');
 let msgErrorAlterarSenha = document.querySelector('#msgErrorAlterarSenha');
 let msgSuccessAlterarSenha = document.querySelector('#msgSuccessAlterarSenha');
 
+// Adiciona evento de clique ao ícone do olho para a nova senha
+document.querySelector('#verNovaSenha').addEventListener('click', () => {
+  toggleVisibility(novaSenha);
+});
+
+// Adiciona evento de clique ao ícone do olho para a confirmação da nova senha
+document.querySelector('#verConfirmarNovaSenha').addEventListener('click', () => {
+  toggleVisibility(confirmarNovaSenha);
+});
+
+function toggleVisibility(inputField) {
+  if (inputField.getAttribute('type') === 'password') {
+    inputField.setAttribute('type', 'text');
+  } else {
+    inputField.setAttribute('type', 'password');
+  }
+}
+
 novaSenha.addEventListener('keyup', () => {
   if (novaSenha.value.length <= 5) {
     novaSenha.style.borderColor = 'red';
