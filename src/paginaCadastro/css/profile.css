@@ -1,11 +1,14 @@
+/* Importa a fonte Roboto do Google Fonts para ser usada na página */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Define estilos globais para todos os elementos */
 * {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
+/* Estilos para o corpo da página */
 body {
   background-image: url(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/124324628/0a39d2d4-66be-4818-91fb-4babf3b57ed);
   background-repeat: no-repeat;
@@ -14,12 +17,14 @@ body {
   
 }
 
+/* Estilos para o título h1 */
 h1{
   text-align: left;
   margin-bottom: 20px;
   color: #d11740
 }
 
+/* Estilos para botões de perfil */
 .profile-button{
   background-color: transparent;
   border-color: #272262;
@@ -34,6 +39,7 @@ h1{
   transition: all .4s ease-out;
 }
 
+/* Estilos para botões de perfil quando o mouse está sobre */
 .profile-button:hover{
   background-color: #272262;
   color: #fff;

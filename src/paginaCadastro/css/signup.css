@@ -1,11 +1,14 @@
+/* Importa a fonte Roboto do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Define estilos para todos os elementos */
 * {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
+/* Estilos para o corpo da página */
 body {
   background-image: url(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/124324628/0a39d2d4-66be-4818-91fb-4babf3b57ed3);
   background-repeat: no-repeat;
@@ -14,6 +17,7 @@ body {
   
 }
 
+/* Container principal da página */
 .container {
   display: flex;
   justify-content: center;
@@ -21,6 +25,7 @@ body {
   margin-top: 100px;
 }
 
+/* Estilos para o cartão */
 .card {
   background-color: #ffffff80;
   padding: 30px;
@@ -29,12 +34,14 @@ body {
   width: 400px;
 }
 
+/* Estilos para os títulos */
 h1{
   text-align: center;
   margin-bottom: 20px;
   color: #0d009c
 }
 
+/* Estilos para os inputs dentro de .label-float */
 .label-float input{
   width: 100%;
   padding: 5px 5px;
@@ -47,9 +54,9 @@ h1{
   font-size: 16px;
   transition: all .3s ease-out;
   border-radius: 0;
-  
-}
+  }
 
+/* Estilos para .label-float */
 .label-float{
   position: relative;
   padding-top: 13px;
@@ -57,10 +64,12 @@ h1{
   margin-bottom: 5%;
 }
 
+/* Estilos para o input dentro de .label-float quando está em foco */
 .label-float input:focus{
   border-bottom: 2px solid #4038a0;
 }
 
+/* Estilos para o label dentro de .label-float */
 .label-float label{
   color: #0d009c;
   pointer-events: none;
@@ -71,6 +80,7 @@ h1{
   transition: all .3s ease-out;
 }
 
+/* Estilos para o input dentro de .label-float quando focado ou válido */
 .label-float input:focus + label,
 .label-float input:valid + label{
   font-size: 13px;
@@ -78,6 +88,7 @@ h1{
   color: #4038a0
 }
 
+/* Estilos para botões */
 button{
   background-color: transparent;
   border-color: #0d009c;
@@ -92,16 +103,19 @@ button{
   transition: all .4s ease-out;
 }
 
+/* Estilos para botões quando o mouse está sobre */
 button:hover{
   background-color: #0d009c;
   color: #fff;
 }
 
+/* Estilos para centralizar */
 .justify-center{
   display: flex;
   justify-content: center;
 }
 
+/* Estilos para o ícone de olho */
 .fa-eye{
   position: absolute;
   top: 15px;
@@ -110,6 +124,7 @@ button:hover{
   color: #0d009c;
 }
 
+/* Estilos para mensagem de erro */
 #msgError{
   text-align: center;
   color: #ff0000;
@@ -119,6 +134,7 @@ button:hover{
   display: none;
 }
 
+/* Estilos para mensagem de sucesso */
 #msgSuccess{
   text-align: center;
   color: #00bb00;
