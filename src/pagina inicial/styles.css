@@ -76,10 +76,7 @@ footer {
     border: auto;
 }
 
-.logo-cabecalho {
-    
-    
-}
+
 
 .img-logo-cabecalho {
     height: 6rem;
@@ -270,18 +267,21 @@ text-align: left;
 /*Footer*/
 
 .footer {
-    height: 10rem
+    background-color: #415bbc;
+    padding: 20px 0;
+    text-align: center; 
 }
 
-.img-logo-rodapé {
-    height: 10rem;
-    width: 15rem;
-    align-items: center;
-}
-
-.text-footer {
-    margin: 1em 0;
+.container {
+    display: flex;
+    align-items:center;
     color: white;
-    font-size: 14px;
-    
-}
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .logo {
+    height: 10rem;
+    width: 15rem; 
+    margin-right: 10px;
+  }
