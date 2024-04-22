@@ -12,9 +12,13 @@ main {
 }
 
 /*Cabeçalho*/
-header {
+.cabecalho {
     background-color: #415bbc;
-    height: 4rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
 .nav-bar{
@@ -23,14 +27,20 @@ header {
     font-family: "Poppins", sans-serif;
     align-items: center;
     color: #415bbc;
-    
 }
 
+.buttons{
+    position: relative;
+    left: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+}
 
 
 .nav-itens {
     list-style: none;
     display: flex;
+    padding-top: 40px;
 }
 
 .nav-itens>li>a {
@@ -38,11 +48,6 @@ header {
     color: white;
     text-decoration: none;
     
-}
-
-.buttons {
-    display: flex;
-    justify-content: end;
 }
 
 .Entrar {
@@ -54,7 +59,8 @@ header {
     background-color: #6985D6;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    
+    text-decoration: none;
+
 }
 
 .Cadastro {
@@ -67,6 +73,7 @@ header {
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     transition: 1s background;
+    text-decoration: none;
 }
 
 .cadastro:hover {
@@ -86,7 +93,7 @@ footer {
 .img-logo-cabecalho {
     height: 6rem;
     width: 6rem;
-    
+    padding-top: 10px;
     
 }
 
@@ -131,7 +138,7 @@ button {
 /*Fim do slide de imagens*/
 
 /*Cards inicio*/
-.container {
+.container-cards {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,7 +236,7 @@ button {
 
 .cards-dep {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 45%;
     margin: 0 auto;
     grid-gap: 40px;
     font-family: 'Poppins', sans-serif;
@@ -259,7 +266,7 @@ button {
 
 .text-dep {
     color: #414141;
-    text-align:start
+    text-align: start;
 }
 
 .card-dep h3 {
@@ -279,7 +286,7 @@ text-align: left;
 
 .container {
     display: flex;
-    align-items:center;
+    align-items: center;
     color: white;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
