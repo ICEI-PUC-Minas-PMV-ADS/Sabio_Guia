@@ -126,14 +126,15 @@ body {
 }
 
 .content-text {
-  color: #333;
-  margin-top: 30px;  
-  line-height: 1.6;  
-  font-size: 1.1rem;  
-  font-weight: 400;  
-  text-align: justify;  
-  padding: 10px;
+  color: #333;           /* Define a cor do texto como #333 (escuro) */
+  margin-top: 30px;        /* Adiciona uma margem de 30px no topo do elemento */
+  line-height: 1.6;        /* Define a altura da linha como 1.6 vezes o tamanho da fonte */
+  font-size: 1.1rem;       /* Define o tamanho da fonte como 1.1 vezes o tamanho da fonte padrão do navegador */
+  font-weight: 400;        /* Define a espessura da fonte como 400 (normal) */
+  text-align: justify;     /* Alinha o texto para que as linhas tenham largura uniforme */
+  padding: 10px;           /* Adiciona um preenchimento de 10px em todos os lados do elemento */
 }
+
 
 .img-logo-cabecalho {
   height: 6rem;
