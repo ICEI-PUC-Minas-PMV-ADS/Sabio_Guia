@@ -58,8 +58,13 @@ body {
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
   text-decoration: none;
+  position: absolute;
+  top: -5px;
+  right: -520px
 
 }
+
+
 
 .Cadastro {
   padding: 10px 40px;
@@ -72,6 +77,10 @@ body {
   cursor: pointer;
   transition: 1s background;
   text-decoration: none;
+  position: absolute;
+  top: -5px;
+  right: -700px
+
 }
 
 .cadastro:hover {
@@ -159,6 +168,7 @@ footer {
   color: white;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 .logo {
