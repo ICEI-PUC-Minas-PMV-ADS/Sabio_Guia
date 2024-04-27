@@ -147,12 +147,15 @@ footer {
     align-items: center;
 }
 
+
+/*Banner*/
 .banner-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+/*Sombra do banner*/
 .overlay {
     position: absolute;
     top: 0;
@@ -163,6 +166,7 @@ footer {
     z-index: 2;
 }
 
+/*Apresentação do Tutorial*/
 .normal h3 {
     text-align: left;
     margin-left: 20px;
@@ -188,6 +192,7 @@ footer {
     width: 150%;
 }
 
+/*Checkbox passo à passo*/
 .passo-a-passo {
     display: block;
     position: relative;
@@ -213,13 +218,7 @@ footer {
 }
 
 
-
-
-
-
-
-
-/*Cards inicio*/
+/*Cards de vídeos externos*/
 .container-cards {
     display: flex;
     justify-content: center;
@@ -285,5 +284,3 @@ footer {
     align-self: flex-end; /* Alinha o botão no final do cartão */
     transition: background-color 0.3s ease;
 }
-
-/*Cards fim*/
