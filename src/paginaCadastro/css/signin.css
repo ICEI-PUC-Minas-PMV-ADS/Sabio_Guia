@@ -1,3 +1,5 @@
+/* CSS ajustado */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,6 @@
 main {
   background-color: #fff9eb;
 }
-
 /*Cabeçalho*/
 .cabecalho {
   background-color: #415bbc;
@@ -38,11 +39,11 @@ main {
 .nav-itens {
   list-style: none;
   display: flex;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .nav-itens>li>a {
-  padding-left: 30px;
+  padding-left: 40px;
   color: white;
   text-decoration: none;
   
@@ -79,15 +80,6 @@ main {
   transition: 1s background;
 }
 
-footer {
-  background-color: #415bbc;
-  height: 10rem;
-  padding-top: 10px;
-  border: auto;
-}
-
-
-
 .img-logo-cabecalho {
   height: 6rem;
   width: 6rem;
@@ -95,7 +87,38 @@ footer {
   
 }
 
+/*Footer*/
 
+footer {
+  background-color: #415bbc;
+  padding: 20px 0;
+  text-align: center; 
+  border: auto;
+  padding-top: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 10rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+}
+
+.container-text{
+  padding-top: 30px;
+}
+
+.logo {
+  height: 8rem;
+  width: 12rem; 
+  margin-right: 10px;
+}
 
 
 
@@ -115,6 +138,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 60px;
+  height: 80vh;
 }
 
 /* Container footer*/
@@ -135,12 +159,12 @@ footer {
 }
 
 /* Estilos para os títulos */
-h1{
+h3{
   text-align: center;
   margin-bottom: 20px;
-  color: #272262
+  color: #0d009c;
+  
 }
-
 /* Estilos para os inputs dentro de .label-float */
 .label-float input{
   width: 100%;
@@ -216,32 +240,11 @@ button:hover{
   justify-content: center;
 }
 
-/* Estilos para a linha horizontal */
-hr{
-  margin-top: 10%;
-  margin-bottom: 10%;
-  width: 60%;
-}
-
-/* Estilos para parágrafos */
-p{
-  color: #272262;
-  font-size: 12pt;
-  text-align: center;
-}
-
-/* Estilos para links */
-a{
-  color: #7a3077;
-  font-weight: bold;
-  text-decoration: none;
-  transition: all .3s ease-out;
-}
-
 /* Estilos para links quando o mouse está sobre */
 a:hover{
   color: #272262;
 }
+
 
 /* Estilos para o ícone de olho */
 .bi-eye-fill, .bi-eye-slash{

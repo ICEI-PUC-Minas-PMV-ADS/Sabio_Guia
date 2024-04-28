@@ -50,45 +50,54 @@ email.addEventListener('keyup', () => {
 })
 
 senha.addEventListener('keyup', () => {
-  if(senha.value.length <= 5){
-    labelSenha.setAttribute('style', 'color: red')
-    labelSenha.innerHTML = 'Senha *Insira no minimo 6 caracteres'
-    senha.setAttribute('style', 'border-color: red')
-    validSenha = false
+  const password = senha.value;
+  const uppercaseRegex = /[A-Z]/;
+  const lowercaseRegex = /[a-z]/;
+  const numberRegex = /[0-9]/;
+  const specialCharRegex = /[^A-Za-z0-9]/;
+
+  const hasUppercase = uppercaseRegex.test(password);
+  const hasLowercase = lowercaseRegex.test(password);
+  const hasNumber = numberRegex.test(password);
+  const hasSpecialChar = specialCharRegex.test(password);
+
+  if (password.length < 6 || !hasUppercase || !hasLowercase || !hasNumber || !hasSpecialChar) {
+    labelSenha.setAttribute('style', 'color: red');
+    labelSenha.innerHTML = 'Senha *Insira no mínimo 6 caracteres, incluindo letras maiúsculas, minúsculas, números e caracteres especiais';
+    senha.setAttribute('style', 'border-color: red');
+    validSenha = false;
   } else {
-    labelSenha.setAttribute('style', 'color: green')
-    labelSenha.innerHTML = 'Senha'
-    senha.setAttribute('style', 'border-color: green')
-    validSenha = true
+    labelSenha.setAttribute('style', 'color: green');
+    labelSenha.innerHTML = 'Senha';
+    senha.setAttribute('style', 'border-color: green');
+    validSenha = true;
   }
-})
+});
 
 confirmSenha.addEventListener('keyup', () => {
-  if(senha.value != confirmSenha.value){
-    labelConfirmSenha.setAttribute('style', 'color: red')
-    labelConfirmSenha.innerHTML = 'Confirmar Senha *As senhas não conferem'
-    confirmSenha.setAttribute('style', 'border-color: red')
-    validConfirmSenha = false
+  if (senha.value != confirmSenha.value){
+    labelConfirmSenha.setAttribute('style', 'color: red');
+    labelConfirmSenha.innerHTML = 'Confirmar Senha *As senhas não conferem';
+    confirmSenha.setAttribute('style', 'border-color: red');
+    validConfirmSenha = false;
   } else {
-    labelConfirmSenha.setAttribute('style', 'color: green')
-    labelConfirmSenha.innerHTML = 'Confirmar Senha'
-    confirmSenha.setAttribute('style', 'border-color: green')
-    validConfirmSenha = true
+    labelConfirmSenha.setAttribute('style', 'color: green');
+    labelConfirmSenha.innerHTML = 'Confirmar Senha';
+    confirmSenha.setAttribute('style', 'border-color: green');
+    validConfirmSenha = true;
   }
-})
+});
 
 function cadastrar(){
   if(validNome && validEmail && validSenha && validConfirmSenha){
     let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
     
-    listaUser.push(
-    {
+    listaUser.push({
       nomeCad: nome.value,
       emailCad: email.value,
       senhaCad: senha.value
-    }
-    )
-    
+    });
+
     localStorage.setItem('listaUser', JSON.stringify(listaUser))
     
    

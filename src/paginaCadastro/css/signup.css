@@ -1,3 +1,5 @@
+/* CSS ajustado */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,6 @@
 main {
   background-color: #fff9eb;
 }
-
 /*Cabeçalho*/
 .cabecalho {
   background-color: #415bbc;
@@ -38,11 +39,11 @@ main {
 .nav-itens {
   list-style: none;
   display: flex;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .nav-itens>li>a {
-  padding-left: 30px;
+  padding-left: 40px;
   color: white;
   text-decoration: none;
   
@@ -79,15 +80,6 @@ main {
   transition: 1s background;
 }
 
-footer {
-  background-color: #415bbc;
-  height: 10rem;
-  padding-top: 10px;
-  border: auto;
-}
-
-
-
 .img-logo-cabecalho {
   height: 6rem;
   width: 6rem;
@@ -95,7 +87,38 @@ footer {
   
 }
 
+/*Footer*/
 
+footer {
+  background-color: #415bbc;
+  padding: 20px 0;
+  text-align: center; 
+  border: auto;
+  padding-top: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 10rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+}
+
+.container-text{
+  padding-top: 30px;
+}
+
+.logo {
+  height: 8rem;
+  width: 12rem; 
+  margin-right: 10px;
+}
 
 /* Importa a fonte Roboto do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -113,6 +136,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 60px;
+  height: 80vh;
 }
 
 /* Container footer*/
@@ -132,11 +156,18 @@ footer {
   width: 345px;
 }
 
+.text-senha{
+  text-align: center;
+  font-size: 11px;
+  margin-top: 20px;
+  }
+
 /* Estilos para os títulos */
-h1{
+h3{
   text-align: center;
   margin-bottom: 20px;
-  color: #0d009c
+  color: #0d009c;
+  
 }
 
 /* Estilos para os inputs dentro de .label-float */
@@ -221,6 +252,7 @@ button:hover{
   cursor: pointer;
   color: #0d009c;
 }
+
 
 /* Estilos para mensagem de erro */
 #msgError{
