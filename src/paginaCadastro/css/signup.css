@@ -4,12 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
 
 main {
   background-color: #fff9eb;
+  /* width: 60%; float: left; padding: 20px */
 }
+
 /*Cabeçalho*/
 .cabecalho {
   background-color: #415bbc;
@@ -29,12 +31,13 @@ main {
 }
 
 .buttons{
-  position: relative;
-  left: 100%;
+  position: absolute;
+  right: 10px;
+  top: 20px;
   padding-top: 10px;
   padding-right: 10px;
-}
 
+}
 
 .nav-itens {
   list-style: none;
@@ -46,7 +49,7 @@ main {
   padding-left: 40px;
   color: white;
   text-decoration: none;
-  
+
 }
 
 .Entrar {
@@ -84,7 +87,7 @@ main {
   height: 6rem;
   width: 6rem;
   padding-top: 10px;
-  
+
 }
 
 /*Footer*/
@@ -92,7 +95,7 @@ main {
 footer {
   background-color: #415bbc;
   padding: 20px 0;
-  text-align: center; 
+  text-align: center;
   border: auto;
   padding-top: 10px;
   width: 100%;
@@ -116,7 +119,7 @@ footer {
 
 .logo {
   height: 8rem;
-  width: 12rem; 
+  width: 12rem;
   margin-right: 10px;
 }
 
@@ -135,8 +138,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px;
-  height: 80vh;
+  padding: 1vw;
+  min-height: 50vh;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Container footer*/
@@ -150,10 +155,13 @@ footer {
 /* Estilos para o cartão */
 .card {
   background-color: #ffffff80;
-  padding: 30px;
+  padding: 1vw;
   border-radius: 4%;
-  box-shadow: 3px 3px 1px 0px #00000060;
-  width: 345px;
+  box-shadow: 0.5vw 0.5vw 0.2vw 0px #00000060;
+  width: 100%;
+  max-width: 20rem;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .text-senha{
@@ -167,7 +175,7 @@ h3{
   text-align: center;
   margin-bottom: 20px;
   color: #0d009c;
-  
+
 }
 
 /* Estilos para os inputs dentro de .label-float */
@@ -176,7 +184,7 @@ h3{
   padding: 5px 5px;
   display: inline-block;
   border: 0;
-  border-bottom: 2px solid #0d009c;
+  border-bottom: 1px solid #0d009c;
   background-color: transparent;
   outline: none;
   min-width: 180px;
@@ -188,9 +196,9 @@ h3{
 /* Estilos para .label-float */
 .label-float{
   position: relative;
-  padding-top: 13px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding-top: 1px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 /* Estilos para o input dentro de .label-float quando está em foco */
@@ -203,7 +211,7 @@ h3{
   color: #0d009c;
   pointer-events: none;
   position: absolute;
-  top: 0;
+  top: 1;
   left: 0;
   margin-top: 13px;
   transition: all .3s ease-out;
