@@ -63,7 +63,7 @@ senha.addEventListener('keyup', () => {
 
   if (password.length < 6 || !hasUppercase || !hasLowercase || !hasNumber || !hasSpecialChar) {
     labelSenha.setAttribute('style', 'color: red');
-    labelSenha.innerHTML = 'Senha *Insira no mínimo 6 caracteres, incluindo letras maiúsculas, minúsculas, números e caracteres especiais';
+   /*labelSenha.innerHTML = 'Senha *Insira no mínimo 6 caracteres, incluindo letras maiúsculas, minúsculas, números e caracteres especiais'; */
     senha.setAttribute('style', 'border-color: red');
     validSenha = false;
   } else {
