@@ -16,10 +16,6 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
 }
 
 .nav-bar{
@@ -31,11 +27,13 @@ main {
 }
 
 .buttons{
-    position: relative;
-    left: 100%;
+    position: absolute;
+    right: 10px;
+    top: 20px;
     padding-top: 10px;
     padding-right: 10px;
 }
+
 
 .nav-itens {
     list-style: none;
