@@ -92,9 +92,7 @@ main {
     
 }
 
-
 /*Footer*/
-
 
 footer {
     background-color: #415bbc;
@@ -124,7 +122,6 @@ footer {
     margin-right: 10px;
   }
 
-
 .title{
     color: #415bbc;
     text-align: center;
@@ -134,7 +131,6 @@ footer {
     font-weight: bold;
 }
 
-
 .banner-container {
     position: relative;
     width: 100%;
@@ -143,7 +139,6 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
 
 /*Banner*/
 .banner-container img {
@@ -213,7 +208,6 @@ footer {
     margin-bottom: 100px;
     background-color: #fff;
 }
-
 
 /*Cards de vídeos externos*/
 .container-cards {

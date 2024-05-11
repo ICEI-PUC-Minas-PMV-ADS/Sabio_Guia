@@ -9,7 +9,7 @@
 
 main {
   background-color: #fff9eb;
-  /* width: 60%; float: left; padding: 20px */
+
 }
 
 /*Cabeçalho*/
@@ -138,10 +138,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1vw;
-  min-height: 50vh;
-  width: 100%;
-  box-sizing: border-box;
+  padding: 100px;
+  height: 80vh;
 }
 
 /* Container footer*/
@@ -155,13 +153,24 @@ footer {
 /* Estilos para o cartão */
 .card {
   background-color: #ffffff80;
-  padding: 1vw;
+  padding: 70px;
   border-radius: 4%;
-  box-shadow: 0.5vw 0.5vw 0.2vw 0px #00000060;
+  box-shadow: 3px 3px 1px 0px #00000060;
   width: 100%;
-  max-width: 20rem;
-  margin: 0 auto;
+  max-width: 30rem;
+  margin: 10 auto;
   box-sizing: border-box;
+}
+
+.card-logo {
+  background-color: #415bbc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%; /* Define o raio do círculo para 50% */
 }
 
 .text-senha{
@@ -184,7 +193,7 @@ h3{
   padding: 5px 5px;
   display: inline-block;
   border: 0;
-  border-bottom: 1px solid #0d009c;
+  border-bottom: 2px solid #0d009c;
   background-color: transparent;
   outline: none;
   min-width: 180px;
@@ -196,9 +205,9 @@ h3{
 /* Estilos para .label-float */
 .label-float{
   position: relative;
-  padding-top: 1px;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* Estilos para o input dentro de .label-float quando está em foco */
@@ -211,7 +220,7 @@ h3{
   color: #0d009c;
   pointer-events: none;
   position: absolute;
-  top: 1;
+  top: 0;
   left: 0;
   margin-top: 13px;
   transition: all .3s ease-out;

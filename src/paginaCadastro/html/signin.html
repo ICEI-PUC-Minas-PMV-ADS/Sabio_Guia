@@ -39,47 +39,50 @@
     </header>
 
     <main>
-    <div class="container-card">
-       <div class="card">
-        <h3>Login</h3>
-
-        <div id="msgError"></div>
-
-        <div class="label-float">
-            <input type="text" id="email" placeholder="" required />
-            <label id="userLabel" for="email">E-mail</label>
+        <div class="container-card">
+            <div class="card-logo">
+                <img class="logo-login" src="../../../docs/img/logo_rodape-removebg-preview.png" alt="card image">
+            </div>
+            <div class="card">
+                <h3>Login</h3>
+    
+                <div id="msgError"></div>
+    
+                <div class="label-float">
+                    <input type="text" id="email" placeholder="" required />
+                    <label id="userLabel" for="email">E-mail</label>
+                </div>
+    
+                <div class="label-float">
+                    <input type="password" id="senha" placeholder="" required />
+                    <label id="senhaLabel" for="senha">Senha</label>
+                    <i class="bi bi-eye-fill" aria-hidden="true"></i>
+                </div>
+    
+                <div class="justify-center">
+                    <button onclick="entrar()">Entrar</button>
+                </div>
+    
+                <div class="justify-center">
+                    <a class="forgot-password-link" href="./password.html">Esqueci minha senha</a>
+                </div>
+    
+                <div class="justify-center">
+                    <hr>
+                </div>
+    
+                <p>
+                    <div class="text-senha">
+                    Não tem uma conta?
+                    <a href="./signup.html">
+                        Cadastre-se
+                    </a>
+                </p>
+            </div>
         </div>
-
-        <div class="label-float">
-            <input type="password" id="senha" placeholder="" required />
-            <label id="senhaLabel" for="senha">Senha</label>
-            <i class="bi bi-eye-fill" aria-hidden="true"></i>
-        </div>
-
-        <div class="justify-center">
-            <button onclick="entrar()">Entrar</button>
-        </div>
-
-        <div class="justify-center">
-            <a class="forgot-password-link" href="./password.html">Esqueci minha senha</a>
-        </div>
-       
-        <div class="justify-center">
-            <hr>
-        </div>
-
-        <p>
-            Não tem uma conta?
-            <a href="./signup.html">
-              Cadastre-se
-            </a>
-        </p>
-        </div>
-        </div>
-
     </main>
 
-        <footer>
+            <footer>
             <div class="container">
                 <img src="../../paginaCadastro/images/logo.png" alt="Logo sábio guia" class="logo">
                 <p class="container-text">©2024 Sábio Guia. Todos os direitos reservados.</p>
