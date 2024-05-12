@@ -1,8 +1,8 @@
 # Template padrão da Aplicação
 
-O layout padrão do site foi construído com as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript foi utilizada para a construção do menu responsivo.
+O layout padrão do site foi construído com as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript foi utilizada para a construção da página do cadastro.
 
-As páginas terão como elementos padrões a página inicial, o header e o footer, além dos elementos de identidade visual citados abaixo:
+As páginas terão como elementos padrões o menu de navegação, o header e o footer, além dos elementos de identidade visual citados abaixo:
 
 <ul>
 <li>Cores: RGB: #415bbc,  #f58440, white e black ;</li>
@@ -18,3 +18,8 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/blob/d990c3cbbbc5e5faa8b16210ee1832e29599ea3f/docs/img/P%C3%A1gina%20inicial%201.png"> 
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/blob/d990c3cbbbc5e5faa8b16210ee1832e29599ea3f/docs/img/P%C3%A1gina%20inicial%202.png">
+
+<h3><b>Logotipo</b></h3>
+
+<figure>
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/blob/27ed5fa50a55ff3fe75aeb1bf321b0dd792d82d2/docs/img/logo.png">
