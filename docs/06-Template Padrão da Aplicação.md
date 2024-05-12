@@ -1,12 +1,16 @@
-# Template Padrão da Aplicação
+# Template padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+O layout padrão do site foi construído com as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript foi utilizada para a construção do menu responsivo.
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+As páginas terão como elementos padrões a página inicial, o header e o footer, além dos elementos de identidade visual citados abaixo:
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+<ul>
+<li>Cores: RGB: #415bbc,  #f58440, white e black ;</li>
+<li>Font-family: Poppins, sans-serif.</li>
+<li>Font-size: 14px, 15px, 20px, 1rem, 1.1rem, 1.5rem, 1.8rem, 2rem, 11px, 12pt, 13px, 16px, 22px.</li>
+</ul>
+
+O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia.gits">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/tree/778a01a924f8b120094c420dc181d630f9636125/docs/img>aqui</a>.
+
+
+
