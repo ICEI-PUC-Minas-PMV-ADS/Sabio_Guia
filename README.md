@@ -39,7 +39,11 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/09-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
+# Hospedagem
+
+A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/src/pagina%20inicial/index.html">aqui</a> para acessá-lo. 
+
+# Código-Fonte
 
 <li><a href="src/README.md"> Código Fonte</a></li>
 
