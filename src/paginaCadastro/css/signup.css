@@ -1,16 +1,17 @@
-/* CSS ajustado */
-
+/* Estilos globais */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Fonte global */
 }
 
+/* Elementos específicos */
 main {
-  background-color: #fff9eb;
+  background-color: #fff9eb; /* Cor de fundo do site */
 }
 
-/*Cabeçalho*/
+/* Cabeçalho */
 .cabecalho {
   background-color: #415bbc;
   height: 5rem;
@@ -23,8 +24,8 @@ main {
 .nav-bar {
   display: flex;
   justify-content: flex-start;
-  font-family: "Poppins", sans-serif;
   align-items: center;
+  font-family: "Poppins", sans-serif;
   color: #415bbc;
 }
 
@@ -32,8 +33,7 @@ main {
   position: absolute;
   right: 10px;
   top: 20px;
-  padding-top: 10px;
-  padding-right: 10px;
+  padding: 10px;
 }
 
 .nav-itens {
@@ -65,37 +65,33 @@ main {
 
 .Cadastro {
   background-color: #F6823F;
-  transition: 1s background;
+  transition: background-color 1s;
 }
 
 .Cadastro:hover {
   background-color: #3d3d3d;
-  transition: 1s background;
 }
 
 .img-logo-cabecalho {
-  height: 6rem;
-  width: 6rem;
-  padding-top: 10px;
+  height: 6rem; /* Altura da logo ajustada */
+  width: auto; /* Largura ajustada automaticamente */
 }
 
 /* Footer */
 footer {
   background-color: #415bbc;
   padding: 20px 0;
-  text-align: center; 
-  border: auto;
-  padding-top: 10px;
+  text-align: center;
   height: 10rem;
 }
 
 .container {
   display: flex;
   align-items: center;
+  justify-content: center; /* Centraliza horizontalmente */
   color: white;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
-  border: none;
 }
 
 .container-text {
@@ -106,16 +102,6 @@ footer {
   height: 8rem;
   width: 12rem;
   margin-right: 10px;
-}
-
-/* Importa a fonte Roboto do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-/* Define estilos para todos os elementos */
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
 }
 
 /* Estilos para a página de recuperação de senha */
@@ -134,17 +120,9 @@ footer {
   flex-wrap: wrap;
   padding: 0px;
   height: 80vh;
-  }
-
-  /* Container footer*/
-.container {
-  display: flex;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
 }
 
+/* Card */
 .card {
   background-color: #ffffff80;
   padding: 50px;
@@ -156,7 +134,7 @@ footer {
   box-sizing: border-box;
 }
 
-/*logo sabio guia*/
+/* Logo Sábio Guia */
 .card-logo-wrapper {
   width: 600px;
   height: 600px;
@@ -188,23 +166,22 @@ footer {
   object-fit: cover;
 }
 
+/* Textos */
+.text-senha,
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 .text-senha {
-  text-align: center;
   font-size: 11px;
   margin-top: 20px;
 }
 
-h3 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #0d009c;
-}
-
+/* Campos de entrada de texto com rótulo flutuante */
 .label-float input {
   width: 100%;
-  padding: 5px 5px;
-  display: inline-block;
+  padding: 5px;
   border: 0;
   border-bottom: 2px solid #0d009c;
   background-color: transparent;
@@ -218,8 +195,7 @@ h3 {
 .label-float {
   position: relative;
   padding-top: 13px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5% 0;
 }
 
 .label-float input:focus {
@@ -243,9 +219,10 @@ h3 {
   color: #4038a0;
 }
 
+/* Botões */
 button {
   background-color: transparent;
-  border-color: #0d009c;
+  border: 2px solid #0d009c;
   color: #0d009c;
   padding: 7px;
   font-weight: bold;
@@ -257,23 +234,23 @@ button {
   transition: all .4s ease-out;
 }
 
-/* Estilos para botões quando o mouse está sobre */
 button:hover {
   background-color: #0d009c;
   color: #fff;
 }
 
-/* Estilos para centralizar elementos */
+/* Centralizar elementos */
 .justify-center {
   display: flex;
   justify-content: center;
 }
 
-/* Estilos para links quando o mouse está sobre */
-a:hover{
+/* Links quando o mouse está sobre */
+a:hover {
   color: #272262;
 }
 
+/* Ícone de olho */
 .fa-eye {
   position: absolute;
   top: 15px;
@@ -282,84 +259,81 @@ a:hover{
   color: #0d009c;
 }
 
-#msgError {
+/* Mensagens de erro e sucesso */
+#msgError,
+#msgSuccess {
   text-align: center;
-  color: #ff0000;
-  background-color: #ffbbbb;
   padding: 10px;
   border-radius: 4px;
   display: none;
+}
+
+#msgError {
+  color: #ff0000;
+  background-color: #ffbbbb;
 }
 
 #msgSuccess {
-  text-align: center;
   color: #00bb00;
   background-color: #bbffbe;
-  padding: 10px;
-  border-radius: 4px;
-  display: none;
 }
 
-/* Media Queries para responsividade */
+/* Media queries para responsividade */
 @media (max-width: 768px) {
   .cabecalho {
     flex-direction: column;
-    align-items: flex-start;
     height: auto;
     padding: 10px;
   }
-
+  
   .nav-itens {
     flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav-itens > li > a {
-    padding-left: 10px;
-  }
-
-  .buttons {
-    position: relative;
-    right: 0;
-    top: 0;
     padding-top: 10px;
-    padding-right: 0;
   }
-
-  .img-logo-cabecalho {
-    height: 4rem;
-    width: 4rem;
+  
+  .nav-itens > li > a {
+    padding-left: 0;
+    padding-top: 10px;
   }
-
+  
+  .buttons {
+    position: static;
+    padding-top: 10px;
+  }
+  
   .container-card {
-    padding: 20px;
     height: auto;
   }
 
-  .card {
-    padding: 20px;
-    max-width: 90%;
+  .card-logo-wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0;
   }
 
   .card-logo {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
 
-  footer {
-    height: auto;
-    padding: 20px 10px;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 16px;
+  .card {
+    max-width: 90%;
+    padding: 20px;
   }
 
   .logo {
-    height: 4rem;
-    width: 6rem;
-    margin-right: 0;
+    height: 6rem;
+    width: 9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
   }
 }
