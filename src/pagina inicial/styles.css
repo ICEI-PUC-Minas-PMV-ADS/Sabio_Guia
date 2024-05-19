@@ -244,7 +244,6 @@ button {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-
     margin-bottom: 15px;
    
 }
@@ -298,4 +297,41 @@ footer {
     width: 12rem; 
     margin-right: 10px;
   }
+
+  @media (max-width: 500px) {
+    .carousel {
+        max-width: 70%; /* Reduz o tamanho do slider para telas menores */
+        margin: 0 auto; /* Centraliza o slider */
+        overflow-x: hidden; /* Impede que o conteúdo ultrapasse os limites laterais */
+        right:20px;
+    }
+    
+    .slides {
+        display: flex; /* Use flexbox para alinhar as imagens */
+        max-width: 100%; /* Limita a largura do .slides */
+        overflow-x: auto; /* Adiciona uma barra de rolagem horizontal quando as imagens ultrapassarem o contêiner */
+    }
+
+    .slides img {
+        flex: 0 0 auto; /* Não permita que as imagens sejam redimensionadas */
+        width: 100%; /* Garante que as imagens se ajustem ao tamanho do contêiner */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+    .cards-dep {
+        grid-gap: 2px; /* Define o espaçamento entre os cartões */
+        gap: 3px; /* Propriedade padrão para espaçamento entre linhas e colunas */
+        -ms-grid-row-gap: 5px; /* Prefixo de fornecedor para Edge */
+    }
+    .card-dep {
+        padding: 20px 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        max-width: calc(100% - 60px); /* Ajusta a largura máxima considerando o preenchimento */
+    }    
+    .title-dep{
+        font-size: 16px;
+    }
+    
+}
+
 
