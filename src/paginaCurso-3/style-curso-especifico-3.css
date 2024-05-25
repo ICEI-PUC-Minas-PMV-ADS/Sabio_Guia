@@ -223,11 +223,11 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     overflow: hidden;
-    width: 300px;
+    width: 600px;
 }
 
 .card img {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
