@@ -58,40 +58,63 @@
 
     </section>
 
+    <div class="btn-container">
+        <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+        <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+    </div>
+
+</br>
+
+    <div class="card-tutorial">
+        <img src="./img/banner-card.jpg" alt="Imagem" />
+        <div class="card-tutorial-content">
+            <h2 class="title-card-tutorial">CHAMADA DE VÍDEO</h2>
+            <p>Em um mundo cada vez mais conectado, as chamadas de vídeo se tornaram uma ferramenta valiosa para fortalecer os laços familiares, especialmente para os idosos. Com o avanço da tecnologia, agora é mais fácil do que nunca reunir-se virtualmente com seus entes queridos, independentemente da distância física.  Neste espaço dedicado, oferecemos dicas práticas com passo a passo para você realizar sua primeira chamada de vídeo!</p>
+        </div>
+    </div>
+
+</br>
 
     <section>
-    <div class="normal">
-        <img class="boxes" src="./img/banner-card.jpg">
-        <article>
-            <h3 class="titulo" style="color: #F6823F;"><b>CHAMADA DA VÍDEO</b></h3>
-            <p>Em um mundo cada vez mais conectado, as chamadas de vídeo se tornaram uma ferramenta valiosa para fortalecer os laços familiares, especialmente para os idosos. Com o avanço da tecnologia, agora é mais fácil do que nunca reunir-se virtualmente com seus entes queridos, independentemente da distância física. Em nosso site dedicado ao bem-estar dos idosos, exploramos os muitos benefícios emocionais, sociais e até mesmo físicos das chamadas de vídeo. Imagine poder ver o sorriso de um neto, compartilhar histórias com um filho distante ou simplesmente sentir-se presente em eventos familiares importantes, tudo através de uma simples chamada de vídeo. Além de proporcionar momentos de alegria e conexão, as chamadas de vídeo também têm demonstrado impactos positivos na saúde mental e emocional dos idosos, ajudando a combater a solidão e promover uma sensação de pertencimento. Neste espaço dedicado, oferecemos dicas práticas com passo a passo para você realizar sua primeira chamada de vídeo!</p>
-        </article>
-    </div>
+        <div class="checklist">
+            <h2>CHAMADA DE VIDEO PELO WHATSAPP</h2>
+            </br>
+            <ul>
+                <li><input type="checkbox" id="step1"><label for="step1">Passo 1: Abra o aplicativo do WhatsApp</label></li>
+                <li><input type="checkbox" id="step2"><label for="step2">Passo 2: Selecione o contato com quem deseja conversar</label></li>
+                <li><input type="checkbox" id="step3"><label for="step3">Passo 3: Toque no ícone de chamada de vídeo (Câmera)</label></li>
+                <li><input type="checkbox" id="step4"><label for="step4">Passo 4: Aguarde o contato atender chamada</label></li>
+                <!-- Adicione mais passos conforme necessário -->
+            </ul>
+        </div>
     </section>
+
+</br>
 
     <section>
-    <div class="tutorial-container">
-    <fieldset class="passo-a-passo">
-        <legend>PASSO À PASSO</legend>
-        <div>
-          <input type="checkbox" id="p1" name="interesse" value="passo" />
-          <label for="passo"> Passo 1 </label>
+        <div class="checklist">
+            <h2>CHAMADA DE VIDEO PELO INSTAGRAM</h2>
+            </br>
+            <ul>
+                <li><input type="checkbox" id="step1"><label for="step1">Passo 1: Abra o aplicativo do Instagram</label></li>
+                <li><input type="checkbox" id="step2"><label for="step2">Passo 2: Clique no "direct", a setinha que fica no canto superior direito na página principal do aplicativo </label></li>
+                <li><input type="checkbox" id="step3"><label for="step3">Passo 3: Lembre-se que a função da chamada de vídeo só existe quando já esxiste uma conversa com a outra pessoa</label></li>
+                <li><input type="checkbox" id="step3"><label for="step3">Passo 3: Selecione o perfil com quem deseja conversar dentre seu histórico de conversas</label></li>
+                <li><input type="checkbox" id="step3"><label for="step3">Passo 3: Toque no ícone de chamada de vídeo (Câmera)</label></li>
+                <li><input type="checkbox" id="step4"><label for="step4">Passo 4: Aguarde o contato atender chamada</label></li>
+                <!-- Adicione mais passos conforme necessário -->
+            </ul>
         </div>
-        <div>
-          <input type="checkbox" id="p2" name="interesse" value="passo" />
-          <label for="passo"> Passo 2 </label>
-        </div>
-      </fieldset>
-    </div>
     </section>
 
+    </br>
     <h1 class="title">VÍDEOS DE APOIO</h1>
     <div class="container-cards">
         <div class="card">
             <img src="./img/insta.png" alt="Card Image">
             <div class="card-content">
-                <h2 class="title-card">Instagram</h2>
-                <p>Em desenvolvimento</p>
+                <h2 class="title-card">INSTAGRAM</h2>
+                <p>CHAMADA DE VÍDEO</p>
                 <a href="https://www.youtube.com/watch?v=FXIDOqU11iE" target="_blank" class="btn-card">VISUALIZAR</a>
             </div>
         </div>
@@ -99,8 +122,8 @@
         <div class="card">
             <img src="./img/wpp.png" alt="Card Image">
             <div class="card-content">
-                <h2 class="title-card">WhatsApp</h2>
-                <p>Em desenvolvimento</p>
+                <h2 class="title-card">WHATSAPP</h2>
+                <p>CHAMADA DE VÍDEO</p>
                 <a href="https://www.youtube.com/watch?v=wdJklviNVlQ" target="_blank" class="btn-card">VISUALIZAR</a>
             </div>
         </div>
@@ -116,6 +139,30 @@
     </footer>
 
    
-    <script src="script.js"></script>
+    <script>
+    /*
+        window.onload = function() {
+    var elementBody = document.querySelector('body');
+    var elementBtnIncreaseFont = document.getElementById('increase-font');
+    var elementBtnDecreaseFont = document.getElementById('decrease-font');
+    // Padrão de tamanho, equivale a 100% do valor definido no Body
+    var fontSize = 100;
+    // Valor de incremento ou decremento, equivale a 10% do valor do Body
+    var increaseDecrease = 10;
+
+    // Evento de click para aumentar a fonte
+    elementBtnIncreaseFont.addEventListener('click', function(event) {
+        fontSize = fontSize + increaseDecrease;
+        elementBody.style.fontSize = fontSize + '%';
+    });
+
+    // Evento de click para diminuir a fonte
+    elementBtnDecreaseFont.addEventListener('click', function(event) {
+        fontSize = fontSize - increaseDecrease;
+        elementBody.style.fontSize = fontSize + '%';
+    });
+    }
+    */
+    </script>
 </body>
 </html>
