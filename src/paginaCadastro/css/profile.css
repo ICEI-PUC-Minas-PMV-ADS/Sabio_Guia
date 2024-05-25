@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   padding-top: 80px;
+  padding-bottom: 109px;
 }
 
 .profile {
@@ -156,4 +157,29 @@ button:hover {
 .img-logo-cabecalho {
   height: 6rem; /* Altura da logo ajustada */
   width: auto; /* Largura ajustada automaticamente */
+}
+/* Estilos para o footer */
+footer {
+  background-color: #415bbc;
+  padding: 20px 0;
+  text-align: center;
+  height: 10rem;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-text {
+  padding-top: 30px;
+}
+
+.logo {
+  height: 8rem;
+  width: 12rem;
+  margin-right: 10px;
 }
