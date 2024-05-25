@@ -119,25 +119,23 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   padding: 0px;
-  height: 80vh;
 }
 
 /* Card */
 .card {
   background-color: #ffffff80;
-  padding: 50px;
+  padding: 20px;
   border-radius: 4%;
   box-shadow: 3px 3px 1px 0px #00000060;
-  width: 100%;
-  max-width: 400px;
+  width: 500px;
   margin: 20px;
   box-sizing: border-box;
 }
 
 /* Logo Sábio Guia */
 .card-logo-wrapper {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,6 +143,7 @@ footer {
   border-radius: 50%;
   overflow: hidden;
   margin: -100px;
+  right: 50px;
 }
 
 .card-logo {
@@ -177,7 +176,10 @@ h3 {
   font-size: 11px;
   margin-top: 20px;
 }
-
+.form-title{
+  color: #F6823F;
+  font-weight: bold;
+}
 /* Campos de entrada de texto com rótulo flutuante */
 .label-float input {
   width: 100%;

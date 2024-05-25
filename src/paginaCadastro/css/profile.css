@@ -1,47 +1,159 @@
-/* Importa a fonte Roboto do Google Fonts para ser usada na página */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-/* Define estilos globais para todos os elementos */
+/* Estilos globais */
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+/*Estilos perfil de usuario*/
+.main-content {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-/* Estilos para o corpo da página */
-body {
-  background-image: url(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/124324628/0a39d2d4-66be-4818-91fb-4babf3b57ed);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed
-  
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
 }
 
-/* Estilos para o título h1 */
-h1{
-  text-align: left;
-  margin-bottom: 20px;
-  color: #d11740
+.profile {
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
 }
-
-/* Estilos para botões de perfil */
-.profile-button{
-  background-color: transparent;
-  border-color: #272262;
-  color: #272262;
-  padding: 10px;
+.text-sald{
+  color:#F6823F;
   font-weight: bold;
-  font-size: 12pt;
-  margin-top: 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  outline: none;
-  transition: all .4s ease-out;
+  left: 60px;
+  position: relative;
+  bottom: 50px;
+  font-size: 20px;
+}
+.container-form{
+  width: 500px;
+  height: 300px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 14px -1px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 2px 14px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 2px 14px -1px rgba(0, 0, 0, 1);
 }
 
-/* Estilos para botões de perfil quando o mouse está sobre */
-.profile-button:hover{
-  background-color: #272262;
+.profile-image {
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Isso vai deixar a imagem arredondada */
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+
+.upload-button {
+  display: block;
+  background-color: #F6823F;
   color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 200px;
 }
 
+.profile-details {
+  text-align: center;
+}
+
+.profile-input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 200px;
+}
+
+.btn-salvar {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  background-color: #415bbc;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #415bbc;
+}
+
+.buttons {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  padding: 10px;
+}
+
+.nav-itens {
+  list-style: none;
+  display: flex;
+  padding-top: 20px;
+}
+
+.nav-itens > li > a {
+  padding-left: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.Entrar, .Cadastro {
+  padding: 10px 40px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Entrar {
+  background-color: #6985D6;
+}
+
+.Cadastro {
+  background-color: #F6823F;
+  transition: background-color 1s;
+}
+
+.Cadastro:hover {
+  background-color: #3d3d3d;
+}
+
+.img-logo-cabecalho {
+  height: 6rem; /* Altura da logo ajustada */
+  width: auto; /* Largura ajustada automaticamente */
+}

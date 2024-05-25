@@ -117,6 +117,7 @@ footer {
   justify-content: center;
   width: 100%;
   margin-top: 100px;
+  color: #F6823F;
 }
 
 /* Container principal da página */
@@ -132,19 +133,18 @@ footer {
 /* Estilos para o cartão */
 .card {
   background-color: #ffffff80;
-  padding: 50px;
+  padding: 20px;
   border-radius: 4%;
   box-shadow: 3px 3px 1px 0px #00000060;
-  width: 100%;
-  max-width: 400px;
+  width: 500px;
   margin: 20px;
   box-sizing: border-box;
 }
 
 /* Logo Sábio Guia */
 .card-logo-wrapper {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,11 +178,17 @@ footer {
   font-size: 14px;
   margin-top: 10px;
 }
+.text-cad{
+  color: #F6823F;
+}
 
 h3 {
   text-align: center;
   margin-bottom: 20px;
-  color: #0d009c;
+}
+.form-title{
+  color: #F6823F;
+  font-weight: bold;
 }
 
 /* Estilos para os inputs dentro de .label-float */
@@ -191,7 +197,7 @@ h3 {
   padding: 5px 5px;
   display: inline-block;
   border: 0;
-  border-bottom: 2px solid #272262;
+  border-bottom: 2px solid #0d009c;
   background-color: transparent;
   outline: none;
   min-width: 180px;
@@ -215,7 +221,7 @@ h3 {
 
 /* Estilos para o label dentro de .label-float */
 .label-float label {
-  color: #272262;
+  color: #0d009c;
   pointer-events: none;
   position: absolute;
   top: 0;
@@ -271,6 +277,10 @@ a:hover {
   right: 10px;
   cursor: pointer;
   color: #272262;
+}
+
+.btn.entr{
+  border-radius: 30px;
 }
 
 /* Mensagens de erro e sucesso */
