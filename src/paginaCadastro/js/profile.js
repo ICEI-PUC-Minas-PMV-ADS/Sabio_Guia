@@ -53,3 +53,30 @@ document.addEventListener("DOMContentLoaded", function() {
     alert('Perfil salvo com sucesso!');
   });
 });
+
+// Função para excluir os dados do usuário
+function excluirConta() {
+  // Pegando a lista de usuários do localStorage
+  let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
+
+  // Encontrando o índice do usuário logado
+  const emailLogado = 'email_do_usuario_logado'; // Substitua com o email do usuário logado
+  const index = listaUser.findIndex(user => user.emailCad === emailLogado);
+
+  // Se o usuário for encontrado, remova-o da lista
+  if (index !== -1) {
+    listaUser.splice(index, 1);
+    localStorage.setItem('listaUser', JSON.stringify(listaUser));
+    alert('Conta excluída com sucesso!');
+    // Redirecionar para a página de login ou outra página apropriada
+    window.location.href = '../html/signin.html';
+  } else {
+    alert('Usuário não encontrado!');
+  }
+}
+
+// Adicionando evento de clique ao botão de exclusão
+const btnExcluirConta = document.querySelector('#deleteAccount');
+if (btnExcluirConta) {
+  btnExcluirConta.addEventListener('click', excluirConta);
+}

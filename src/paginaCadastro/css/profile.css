@@ -89,6 +89,15 @@
   cursor: pointer;
 }
 
+.btn-excluir {
+  background-color: #F6823F;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 button:hover {
   background-color: #0056b3;
 }
