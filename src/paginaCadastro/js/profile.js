@@ -1,3 +1,5 @@
+// Profile.js
+
 document.addEventListener("DOMContentLoaded", function() {
   var uploadButton = document.getElementById('upload-image');
   var profileImage = document.getElementById('profile-image');
@@ -5,10 +7,23 @@ document.addEventListener("DOMContentLoaded", function() {
   var lastNameInput = document.getElementById('last-name');
   var saveButton = document.getElementById('save-button');
   var greetingText = document.getElementById('greeting-text');
+  var userName = document.getElementById('userName'); // Adicionado para exibir o nome do usuário
 
   // Limpar os campos ao carregar a página
   firstNameInput.value = "";
   lastNameInput.value = "";
+
+  // Carregar as informações do usuário logado
+  var userLogado = JSON.parse(localStorage.getItem('userLogado'));
+  if (userLogado && userLogado.nome) {
+    userName.textContent = "Olá, " + userLogado.nome;
+    var nomeDividido = userLogado.nome.split(' ');
+    firstNameInput.value = nomeDividido[0];
+    lastNameInput.value = nomeDividido.slice(1).join(' ');
+  } else {
+    // Se não encontrar usuário logado, redireciona para a página de login
+    window.location.href = '../html/signin.html';
+  }
 
   // Carregar as informações salvas do armazenamento local, se houver
   var savedProfileData = localStorage.getItem('profileData');
@@ -44,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
     localStorage.setItem('profileData', JSON.stringify(profileData));
     
     // Atualizar o texto de saudação
-    greetingText.textContent = "Olá " + profileData.firstName + " " + profileData.lastName;
+    // greetingText.textContent = "Olá " + profileData.firstName + " " + profileData.lastName;
     
     // Limpar os campos de texto
     firstNameInput.value = "";
@@ -60,7 +75,8 @@ function excluirConta() {
   let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
 
   // Encontrando o índice do usuário logado
-  const emailLogado = 'email_do_usuario_logado'; // Substitua com o email do usuário logado
+  let userLogado = JSON.parse(localStorage.getItem('userLogado'));
+  const emailLogado = userLogado.email; // Pegando o email do usuário logado
   const index = listaUser.findIndex(user => user.emailCad === emailLogado);
 
   // Se o usuário for encontrado, remova-o da lista

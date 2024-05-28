@@ -33,18 +33,21 @@
     <div class="container">
         <div class="container-form">
             <div class="profile-image">
-        <img src="default-profile.jpg" alt="Imagem de Perfil" id="profile-image"><span id="greeting-text" class="text-sald"></span>
-        <input type="file" id="upload-image" accept="image/*" style="display: none;">
-        <label for="upload-image" class="upload-button">Escolher Imagem</label>
-        
+                <!-- <img src="default-profile.jpg" alt="Imagem de Perfil" id="profile-image"> -->
+                <img src="../img/default-profile.jpg" alt="Imagem de Perfil" id="profile-image">
+
+
+
+                <span id="greeting-text" class="text-sald"></span>
+                <span id="userName" class="text-sald"></span> <!-- Adicionado para exibir o nome do usuário -->
+                <input type="file" id="upload-image" accept="image/*" style="display: none;">
+                <label for="upload-image" class="upload-button">Escolher Imagem</label>
             </div>
-      <input type="text" id="first-name" placeholder="Nome">
-      <input type="text" id="last-name" placeholder="Sobrenome">
-      <button id="save-button" class="btn-salvar">Salvar</button>
-
-
-      <button id="deleteAccount" class="btn-excluir">Excluir Conta</button>
-      
+            <input type="text" id="first-name" placeholder="Nome">
+            <input type="text" id="last-name" placeholder="Sobrenome">
+            <button id="save-button" class="btn-salvar">Salvar</button>
+            <button id="editarAccount" class="btn-editar">Editar Conta</button>
+            <button id="deleteAccount" class="btn-excluir">Excluir Conta</button>
         </div>
     </div>
 </main>

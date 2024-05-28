@@ -34,6 +34,7 @@
   position: relative;
   bottom: 50px;
   font-size: 20px;
+    
 }
 .container-form{
   width: 500px;
@@ -56,6 +57,7 @@
   border-radius: 50%; /* Isso vai deixar a imagem arredondada */
   object-fit: cover;
   border: 2px solid #ccc;
+  
 }
 
 
@@ -90,6 +92,15 @@
 }
 
 .btn-excluir {
+  background-color: #F6823F;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-editar {
   background-color: #F6823F;
   color: #fff;
   padding: 10px 20px;

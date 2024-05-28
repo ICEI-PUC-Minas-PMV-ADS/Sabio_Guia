@@ -1,66 +1,62 @@
+// profile.js
+
 let icon = document.querySelector('.bi-eye-fill');
 
 icon.addEventListener('click', () => {
-
   let inputSenha = document.querySelector('#senha');
   
   if (inputSenha.getAttribute('type') === 'password') {
-        inputSenha.setAttribute('type', 'text');
-      icon.classList.remove('bi-eye-fill');
+    inputSenha.setAttribute('type', 'text');
+    icon.classList.remove('bi-eye-fill');
     icon.classList.add('bi-eye-slash');
   } else {
-       inputSenha.setAttribute('type', 'password');
-      icon.classList.remove('bi-eye-slash');
+    inputSenha.setAttribute('type', 'password');
+    icon.classList.remove('bi-eye-slash');
     icon.classList.add('bi-eye-fill');
   }
-})
+});
 
-function entrar(){
-  let email = document.querySelector('#email')
-  let userLabel = document.querySelector('#userLabel')
-  
-  let senha = document.querySelector('#senha')
-  let senhaLabel = document.querySelector('#senhaLabel')
-  
-  let msgError = document.querySelector('#msgError')
-  let listaUser = []
-  
+function entrar() {
+  let email = document.querySelector('#email');
+  let userLabel = document.querySelector('#userLabel');
+  let senha = document.querySelector('#senha');
+  let senhaLabel = document.querySelector('#senhaLabel');
+  let msgError = document.querySelector('#msgError');
+  let listaUser = [];
   let userValid = {
     nome: null,
     email: null,
     senha: null
-  }
-  
-  listaUser = JSON.parse(localStorage.getItem('listaUser'))
-  
+  };
+
+  listaUser = JSON.parse(localStorage.getItem('listaUser'));
+
   listaUser?.forEach((item) => {
-    if(email.value == item.emailCad && senha.value == item.senhaCad){
-       
+    if (email.value == item.emailCad && senha.value == item.senhaCad) {
       userValid = {
-         nome: item.nomeCad,
-         email: item.emailCad,
-         senha: item.senhaCad
-       }
-      
+        nome: item.nomeCad,
+        email: item.emailCad,
+        senha: item.senhaCad
+      };
     }
-  })
-   
-  if(email.value == userValid.email && senha.value == userValid.senha){
-    window.location.href = '../html/profile.html'
+  });
+
+  if (email.value == userValid.email && senha.value == userValid.senha) {
+    let mathRandom = Math.random().toString(16).substr(2);
+    let token = mathRandom + mathRandom;
     
-    let mathRandom = Math.random().toString(16).substr(2)
-    let token = mathRandom + mathRandom
+    localStorage.setItem('token', token);
+    localStorage.setItem('userLogado', JSON.stringify(userValid));
     
-    localStorage.setItem('token', token)
-    localStorage.setItem('userLogado', JSON.stringify(userValid))
+    // Redirecionar para a página de perfil
+    window.location.href = '../html/profile.html';
   } else {
-    userLabel.setAttribute('style', 'color: red')
-    email.setAttribute('style', 'border-color: red')
-    senhaLabel.setAttribute('style', 'color: red')
-    senha.setAttribute('style', 'border-color: red')
-    msgError.setAttribute('style', 'display: block')
-    msgError.innerHTML = 'Usuário ou senha incorretos'
-    email.focus()
+    userLabel.setAttribute('style', 'color: red');
+    email.setAttribute('style', 'border-color: red');
+    senhaLabel.setAttribute('style', 'color: red');
+    senha.setAttribute('style', 'border-color: red');
+    msgError.setAttribute('style', 'display: block');
+    msgError.innerHTML = 'Usuário ou senha incorretos';
+    email.focus();
   }
-  
 }
