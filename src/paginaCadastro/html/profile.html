@@ -3,60 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perfil de Usuário</title>
   <link rel="stylesheet" href="../css/profile.css">
 </head>
 
 <body>
-    <header class="cabecalho">
-        <nav class="nav-bar">
-            <div class="logo-cabecalho">
-                <img class="img-logo-cabecalho" src="../../../docs/img/logo_rodape-removebg-preview.png" alt="logo">
-            </div>
-    
-            <div class="links">
-                <ul class="nav-itens">
-                    <li><a href="../../pagina inicial/index.html">Página Inicial</a></li>
-                    <li><a href="../../paginaSobre/index.html">Sobre</a></li>
-                    <li><a href="../../cursos/index.html">Cursos</a></li>
-                    <li><a href="../html/profile.html">Perfil de usuario</a></li>
-                </ul>   
-            </div>
-              
-              <div class="buttons">
-                  <a href="./signin.html" class="Entrar">Entrar</a>
-                  <a href="./signup.html" class="Cadastro">Cadastro</a>
-              </div>
-           </nav>
-      </header>
-<main>      
+  <header class="cabecalho">
+    <nav class="nav-bar">
+      <div class="logo-cabecalho">
+        <img class="img-logo-cabecalho" src="../../../docs/img/logo_rodape-removebg-preview.png" alt="logo">
+      </div>
+  
+      <div class="links">
+        <ul class="nav-itens">
+          <li><a href="../../pagina inicial/index.html">Página Inicial</a></li>
+          <li><a href="../../paginaSobre/index.html">Sobre</a></li>
+          <li><a href="../../cursos/index.html">Cursos</a></li>
+          <li><a href="../html/profile.html">Perfil de usuário</a></li>
+        </ul>   
+      </div>
+        
+      <div class="buttons">
+        <a href="./signin.html" id="entrarBtn" class="Entrar">Entrar</a>
+        <a href="./signup.html" id="cadastroBtn" class="Cadastro">Cadastro</a>
+        <a href="../../pagina inicial/index.html" id="sairBtn" class="Sair">Sair</a>
+      </div>
+    </nav>
+  </header>
+  
+  <main>      
     <div class="container">
-        <div class="container-form">
-            <div class="profile-image">
-                <!-- <img src="default-profile.jpg" alt="Imagem de Perfil" id="profile-image"> -->
-                <img src="../img/default-profile.jpg" alt="Imagem de Perfil" id="profile-image">
-
-
-
-                <span id="greeting-text" class="text-sald"></span>
-                <span id="userName" class="text-sald"></span> <!-- Adicionado para exibir o nome do usuário -->
-                <input type="file" id="upload-image" accept="image/*" style="display: none;">
-                <label for="upload-image" class="upload-button">Escolher Imagem</label>
-            </div>
-            <input type="text" id="first-name" placeholder="Nome">
-            <input type="text" id="last-name" placeholder="Sobrenome">
-            <button id="save-button" class="btn-salvar">Salvar</button>
-            <button id="editarAccount" class="btn-editar">Editar Conta</button>
-            <button id="deleteAccount" class="btn-excluir">Excluir Conta</button>
+      <div class="container-form">
+        <div class="profile-image">
+          <img src="../img/default-profile.jpg" alt="Imagem de Perfil" id="profile-image">
+          <span id="greeting-text" class="text-sald"></span>
+          <span id="userName" class="text-sald"></span> <!-- Adicionado para exibir o nome do usuário -->
+          <input type="file" id="upload-image" accept="image/*" style="display: none;">
+          <label for="upload-image" class="upload-button">Escolher Imagem</label>
         </div>
+        <input type="text" id="first-name" placeholder="Nome">
+        <input type="text" id="last-name" placeholder="Sobrenome">
+        <button id="save-button" class="btn-salvar">Salvar</button>
+        <button id="editarAccount" class="btn-editar">Editar Conta</button>
+        <button id="deleteAccount" class="btn-excluir">Excluir Conta</button>
+      </div>
     </div>
-</main>
-<footer>
+  </main>
+  
+  <footer>
     <div class="container-footer">
       <img src="/docs/img/logo_rodape-removebg-preview.png" alt="Logo sábio guia" class="logo">
       <p>©2024 Sábio Guia. Todos os direitos reservados.</p>
     </div>
   </footer>
-    <script src="../js/profile.js"></script>
+  
+  <!-- Script para gerenciar autenticação -->
+  <script src="../js/auth.js"></script>
+  <script src="../js/profile.js"></script>
 </body>
 </html>

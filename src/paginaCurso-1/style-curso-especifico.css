@@ -48,42 +48,43 @@ main {
     
 }
 
-.Entrar {
+.Entrar, .Cadastro, .Sair {
     padding: 10px 40px;
     font-size: 15px;
     border: none;
     border-radius: 5px;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .Entrar {
     background-color: #6985D6;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    text-decoration: none;
-
-}
-
-.Entrar:hover {
-    background-color: #000;
-    transition: 1s background;   
-
-}
-.Cadastro {
-    padding: 10px 40px;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
+    
+  }
+  
+  .Cadastro {
     background-color: #F6823F;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    transition: 1s background;
-    text-decoration: none;
-}
-
-.Cadastro:hover {
-    background-color: #000;
-    color: #fff;
-    transition: 1s background;
-}
+    transition: background-color 1s;
+  }
+  
+  /* .Sair {
+    background-color: #3d3d3d;
+  } */
+  
+  .Cadastro:hover {
+    background-color: #3d3d3d;
+  }
+  
+  .Entrar:hover {
+    background-color: #3d3d3d;
+  }
+  
+  .Sair:hover {
+    background-color: #6985D6;
+    
+  }
 
 .img-logo-cabecalho {
     height: 6rem;

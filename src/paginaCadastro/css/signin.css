@@ -55,7 +55,7 @@ main {
   text-decoration: none;
 }
 
-.Entrar, .Cadastro {
+.Entrar, .Cadastro, .Sair {
   padding: 10px 40px;
   font-size: 15px;
   border: none;
@@ -68,6 +68,7 @@ main {
 
 .Entrar {
   background-color: #6985D6;
+  
 }
 
 .Cadastro {
@@ -75,8 +76,21 @@ main {
   transition: background-color 1s;
 }
 
+/* .Sair {
+  background-color: #3d3d3d;
+} */
+
 .Cadastro:hover {
   background-color: #3d3d3d;
+}
+
+.Entrar:hover {
+  background-color: #3d3d3d;
+}
+
+.Sair:hover {
+  background-color: #6985D6;
+  
 }
 
 .img-logo-cabecalho {

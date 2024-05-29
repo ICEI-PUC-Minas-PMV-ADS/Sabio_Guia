@@ -150,7 +150,7 @@ button:hover {
   text-decoration: none;
 }
 
-.Entrar, .Cadastro {
+.Entrar, .Cadastro, .Sair {
   padding: 10px 40px;
   font-size: 15px;
   border: none;
@@ -163,6 +163,7 @@ button:hover {
 
 .Entrar {
   background-color: #6985D6;
+  
 }
 
 .Cadastro {
@@ -170,8 +171,21 @@ button:hover {
   transition: background-color 1s;
 }
 
+/* .Sair {
+  background-color: #3d3d3d;
+} */
+
 .Cadastro:hover {
   background-color: #3d3d3d;
+}
+
+.Entrar:hover {
+  background-color: #3d3d3d;
+}
+
+.Sair:hover {
+  background-color: #6985D6;
+  
 }
 
 .img-logo-cabecalho {

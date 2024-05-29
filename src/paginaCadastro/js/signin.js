@@ -1,5 +1,17 @@
 // profile.js
 
+document.addEventListener('DOMContentLoaded', () => {
+  // Verifique se o usuário está logado
+  const usuarioLogado = localStorage.getItem('userLogado'); // Supondo que você armazene os dados do usuário logado no localStorage
+
+  if (usuarioLogado) {
+    document.getElementById('entrarBtn').style.display = 'none';
+    document.getElementById('cadastroBtn').style.display = 'none';
+  } else {
+    document.getElementById('sairBtn').style.display = 'none';
+  }
+});
+
 let icon = document.querySelector('.bi-eye-fill');
 
 icon.addEventListener('click', () => {
@@ -50,7 +62,8 @@ function entrar() {
     
     // Redirecionar para a página de perfil
     window.location.href = '../html/profile.html';
-  } else {
+
+      } else {
     userLabel.setAttribute('style', 'color: red');
     email.setAttribute('style', 'border-color: red');
     senhaLabel.setAttribute('style', 'color: red');
