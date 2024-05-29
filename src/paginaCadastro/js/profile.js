@@ -69,7 +69,8 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-// Função para excluir os dados do usuário
+
+/// Função para excluir os dados do usuário e sair
 function excluirConta() {
   // Pegando a lista de usuários do localStorage
   let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
@@ -83,6 +84,8 @@ function excluirConta() {
   if (index !== -1) {
     listaUser.splice(index, 1);
     localStorage.setItem('listaUser', JSON.stringify(listaUser));
+    // Limpar dados de login do localStorage
+    localStorage.removeItem('userLogado');
     alert('Conta excluída com sucesso!');
     // Redirecionar para a página de login ou outra página apropriada
     window.location.href = '../html/signin.html';
@@ -96,3 +99,4 @@ const btnExcluirConta = document.querySelector('#deleteAccount');
 if (btnExcluirConta) {
   btnExcluirConta.addEventListener('click', excluirConta);
 }
+
