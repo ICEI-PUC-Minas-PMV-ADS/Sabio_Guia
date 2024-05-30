@@ -276,3 +276,71 @@ footer {
     align-self: flex-end; /* Alinha o botão no final do cartão */
     transition: background-color 0.3s ease;
 }
+
+
+.container-form{
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.header{
+    background: linear-gradient(120deg, #415bbc 0%, #8bb0ff 100%); /*cor da caixa Deixe seu comentário*/
+    padding: 24px;
+    text-align: center;
+    color: #ffffff /*cor da letra Deixe seu comentário*/
+}
+
+.form{
+    padding: 18px;
+}
+
+.form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.form-content label{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf
+
+.form-content a{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button{
+    background-color: #415bbc; 
+    color:#fff;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.form-content.error{
+    border-color: #ff3b25;
+}
+
+.form-content.error a{
+    color: #ff3b25;
+    visibility: visible;
+}
