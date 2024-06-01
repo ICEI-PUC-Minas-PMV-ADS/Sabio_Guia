@@ -34,6 +34,77 @@ main {
     padding-right: 10px;
 }
 
+/*teste comentarios*/
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    direction: rtl;
+    display: inline-block;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    cursor: pointer;
+    width: 40px;
+    font-size: 30px;
+    color: #ddd;
+    padding: 5px;
+}
+
+.rating label:before {
+    content: '\2605';
+}
+
+.rating input:checked ~ label {
+    color: #ffca08;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.comments-container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.comments-container h2 {
+    text-align: center;
+}
+
+#commentsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.comment p {
+    margin: 5px 0;
+}
+
+
 
 .nav-itens {
     list-style: none;
@@ -280,4 +351,15 @@ footer {
     text-decoration: none;
     align-self: flex-end; /* Alinha o botão no final do cartão */
     transition: background-color 0.3s ease;
+}
+
+.user-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Deixa a imagem arredondada */
+    object-fit: cover;
+    border: 2px solid #ccc; /* Adiciona uma borda de 2px sólida com a cor #ccc */
+}
+.comment-user{
+    font-weight: bold;
 }

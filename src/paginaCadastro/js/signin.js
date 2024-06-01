@@ -61,7 +61,7 @@ function entrar() {
     localStorage.setItem('userLogado', JSON.stringify(userValid));
     
     // Redirecionar para a página de perfil
-    window.location.href = '../html/profile.html';
+    window.location.href = '../../pagina inicial/index.html';
 
       } else {
     userLabel.setAttribute('style', 'color: red');

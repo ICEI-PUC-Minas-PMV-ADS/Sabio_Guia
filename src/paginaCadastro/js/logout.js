@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Limpar dados de login do localStorage
             localStorage.removeItem('userLogado');
             // Redirecionar para a página inicial
-            window.location.href = '../pagina inicial/index.html';
+            window.location.href = '../../pagina inicial/index.html';
         });
     }
 });
