@@ -277,11 +277,12 @@ footer {
     transition: background-color 0.3s ease;
 }
 
+/* Comentários*/
 
 .container-form{
     background-color: #fafafa;
     border-radius: 14px;
-    margin: 14px;
+    margin: 20px;
     max-width: 600px;
     width: 100%;
     box-sizing: 0 3px 5px rgba(0,0,0,0.5);
@@ -315,7 +316,7 @@ footer {
     width: 100%;
     border-radius: 8px;
     padding: 8px;
-    border: 2px solid #dfdfdf
+    border: 2px solid #dfdfdf;
 
 .form-content a{
     position: absolute;
