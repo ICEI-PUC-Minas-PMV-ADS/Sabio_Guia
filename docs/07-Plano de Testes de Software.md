@@ -35,6 +35,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>Todas as letras devem aumentar ou diminuir de tamanho sem quebrar a responsividade.</td>
-  <td>X</td>
+  <td>Carolina Costa</td>
  </tr>
 </table>
