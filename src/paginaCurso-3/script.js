@@ -1,96 +1,65 @@
-const form = document.getElementById("form");
-const username = document.getElementById("username");
-const email = document.getElementById("email");
-const comment = document.getElementById("comment");
-const commentsContainer = document.getElementById("commentsContainer");
-
-// Load comments from localStorage when the page loads
-document.addEventListener("DOMContentLoaded", loadComments);
-
-form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    checkForm();
+// Verificar se o usuário está logado ao carregar a página
+window.addEventListener('DOMContentLoaded', function() {
+    if (!localStorage.getItem('userLogado')) {
+        // Se o usuário não estiver logado, desabilitar o formulário de comentário
+        document.getElementById('commentForm').style.display = 'none';
+    }
 });
 
-function checkInputUsername() {
-    const usernameValue = username.value;
-    if (usernameValue === "") {
-        errorInput(username, "Preencha um nome");
+document.getElementById('commentForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    let commentText = document.getElementById('commentText').value;
+    let rating = document.querySelector('input[name="rating"]:checked').value;
+    let userLoggedIn = localStorage.getItem('userLogado');
+    let userName;
+    let userPhoto;
+
+    if (userLoggedIn) {
+        let userData = JSON.parse(localStorage.getItem('profileData'));
+        userName = userData.firstName;
+        userPhoto = userData.imageSrc;
     } else {
-        const formItem = username.parentElement;
-        formItem.className = "form-content";
+        alert('Você precisa estar logado para comentar.');
+        return;
     }
-}
 
-function checkInputEmail() {
-    const emailValue = email.value;
-    if (emailValue === "") {
-        errorInput(email, "O email é obrigatório");
-    } else {
-        const formItem = email.parentElement;
-        formItem.className = "form-content";
+    if (commentText.trim() === '') {
+        alert('Por favor, insira um comentário.');
+        return;
     }
-}
+    // Adiciona o comentário à memória do navegador
+    addCommentToStorage(commentText, rating, userName, userPhoto);
+    // Atualiza a lista de comentários na página
+    displayCommentsFromStorage();
+});
 
-function checkInputComment() {
-    const commentValue = comment.value;
-    if (commentValue === "") {
-        errorInput(comment, "Digite um comentário");
-    } else {
-        const formItem = comment.parentElement;
-        formItem.className = "form-content";
-    }
-}
-
-function checkForm() {
-    checkInputUsername();
-    checkInputEmail();
-    checkInputComment();
-
-    const formItems = form.querySelectorAll(".form-content");
-    const isValid = [...formItems].every((item) => {
-        return item.className === "form-content";
-    });
-
-    if (isValid) {
-        addComment(username.value, comment.value);
-        form.reset(); // Limpar o formulário após o envio
-    }
-}
-
-function errorInput(input, message) {
-    const formItem = input.parentElement;
-    const textMessage = formItem.querySelector("span");
-    textMessage.innerText = message;
-    formItem.className = "form-content error";
-}
-
-function addComment(username, comment) {
-    const comments = JSON.parse(localStorage.getItem("comments")) || [];
-    const newComment = { username, comment };
+function addCommentToStorage(commentText, rating, userName, userPhoto) {
+    let comments = localStorage.getItem('comments') ? JSON.parse(localStorage.getItem('comments')) : [];
+    let newComment = { text: commentText, rating: rating, user: userName, photo: userPhoto };
     comments.push(newComment);
-    localStorage.setItem("comments", JSON.stringify(comments));
-    renderComments();
+    localStorage.setItem('comments', JSON.stringify(comments));
 }
 
-function loadComments() {
-    const comments = JSON.parse(localStorage.getItem("comments")) || [];
-    comments.forEach((comment) => {
-        displayComment(comment.username, comment.comment);
+
+function displayCommentsFromStorage() {
+    let comments = localStorage.getItem('comments') ? JSON.parse(localStorage.getItem('comments')) : [];
+    let commentList = document.getElementById('commentsList');
+    commentList.innerHTML = ''; // Limpa a lista de comentários antes de atualizar
+    comments.forEach(function(comment) {
+        let listItem = document.createElement('li');
+        listItem.classList.add('comment');
+        listItem.innerHTML = `
+            <div class="comment-header">
+                <img src="${comment.photo}" alt="Foto do usuário" class="user-photo">
+                <p class="comment-user">${comment.user}</p>
+            </div>
+            <p>${comment.text}</p>
+            <p>Avaliação: ${comment.rating} estrelas</p>`;
+        commentList.appendChild(listItem);
     });
 }
 
-function renderComments() {
-    commentsContainer.innerHTML = "<h2>Comentários</h2>";
-    loadComments();
-}
 
-function displayComment(username, comment) {
-    const commentElement = document.createElement("div");
-    commentElement.className = "comment";
-    commentElement.innerHTML = `
-        <h3>${username}</h3>
-        <p>${comment}</p>
-    `;
-    commentsContainer.appendChild(commentElement);
-}
+
+// Exibe os comentários armazenados ao carregar a página
+displayCommentsFromStorage();
