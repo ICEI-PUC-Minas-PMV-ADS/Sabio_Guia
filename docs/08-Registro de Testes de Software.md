@@ -5,7 +5,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 <ol>
   <li> CT-01: Verificar o funcionamento da funcionalidade de ampliação da fonte.
 
-  Responsável: X.
+  Responsável: Carolina Costa.
 
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/109766719/c97e74f5-c9cd-40b4-b36f-024d35eaf373
