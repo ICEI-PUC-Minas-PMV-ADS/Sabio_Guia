@@ -1,40 +1,16 @@
-# Plano de Testes de Software
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/blob/main/docs/04-Projeto%20de%20Interface.md"> Projeto de Interface</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/blob/main/docs/07-Plano%20de%20Testes%20de%20Software.md"> Plano de Testes de Software</a>
 
-<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/blob/main/docs/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>
+Os testes funcionais realizados na aplicação web são descritos a seguir.
 
-Os requisitos para realização dos testes de software são:
-<ul><li>Site publicado na internet;</li>
-<li>Navegador da internet: Chrome ou Edge.</li>
-</ul>
+<ol>
+  <li> CT-01: Verificar o funcionamento da funcionalidade de ampliação da fonte.
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir.
+  Responsável: X.
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
- <tr>
-  <td>CT-01: Verificar o funcionamento da ampliação da fonte</td>
-  <td>
-   <ul>
-    <li>RF-003:	Permitir ao usuário ampliar a fonte no site.</li>
-   </ul>
-  </td>
-  <td>Verificar se ao clicar nos icones A+ ou A- o tamanho da fonte é alterada.</td>
-  <td>
-   <ol>
-    <li>Acessar o navegador.</li>
-    <li>Informar o endereço do site.</li>
-    <li>Visualizar as páginas</li>
-    <li>Clicar nos icones A+ ou A-</li>
-   </ol>
-   </td>
-  <td>Todas as letras devem aumentar ou diminuir de tamanho sem quebrar a responsividade.</td>
-  <td>X</td>
- </tr>
-</table>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/109766719/c97e74f5-c9cd-40b4-b36f-024d35eaf373
+
+
+
+  </li>
+  <hr>
