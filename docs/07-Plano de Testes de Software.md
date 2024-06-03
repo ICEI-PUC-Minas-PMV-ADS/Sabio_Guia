@@ -19,7 +19,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-01: Verificar o funcionamento da ampliação da fonte</td>
+  <td>CT-01: Verificar o funcionamento da funcionalidade de ampliação da fonte</td>
   <td>
    <ul>
     <li>RF-003:	Permitir ao usuário ampliar a fonte no site.</li>
