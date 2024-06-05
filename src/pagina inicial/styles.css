@@ -12,6 +12,16 @@ main {
 }
 
 /*Cabeçalho*/
+.Sair{
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
 .cabecalho {
     background-color: #415bbc;
     height: 5rem;
