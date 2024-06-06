@@ -46,18 +46,18 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-01| Permitir ao usuário a criação de conta.   | ALTA |
-|RF-02| Permitir ao usuário a edição de seu perfil no site.  | MÉDIA |
-|RF-03| Permitir ao usuário ampliar a fonte no site.   | MÉDIA | 
-|RF-04| Permitir ao usuário avaliar o tutorial.   | ALTA |
-|RF-05| Permitir ao usuário realizar sugestões sobre o tutorial.   | ALTA |
-|RF-06| Permitir ao usuário acessar a página Sobre.   | ALTA |
-|RF-07| Permitir ao usuário realizar comentários na página do tutorial.  | MÉDIA |
-|RF-08| Permitir ao usuário a recuperação de senha.   | ALTA |
-|RF-09| Permitir ao usuário a exclusão de sua conta.   | ALTA |
-|RF-10| Permitir ao usuário visualizar depoimentos dos demais usuários.    | MÉDIA |
+|ID    | Descrição do Requisito  | Prioridade | Responsável(is)
+|------|-----------------------------------------|----| ----| 
+|RF-01| Permitir ao usuário a criação de conta.   | ALTA | Fernando
+|RF-02| Permitir ao usuário a edição de seu perfil no site.  | MÉDIA | Leonardo
+|RF-03| Permitir ao usuário ampliar a fonte no site.   | MÉDIA | Marílio e Fernanda
+|RF-04| Permitir ao usuário avaliar o tutorial.   | ALTA | Leonardo e Nayara
+|RF-05| Permitir ao usuário realizar o check-list de passo a passo nos tutoriais.   | ALTA | Fernanda
+|RF-06| Permitir ao usuário acessar a página Sobre.   | ALTA | Nayara e Marílio
+|RF-07| Permitir ao usuário realizar comentários na página do tutorial.  | MÉDIA | Leonardo e Nayara
+|RF-08| Permitir ao usuário a recuperação de senha.   | ALTA | Fernando
+|RF-09| Permitir ao usuário a exclusão de sua conta.   | ALTA | Fernando
+|RF-10| Permitir ao usuário visualizar depoimentos dos demais usuários.    | MÉDIA | Leonardo e Carolina
 
 **Prioridade: Alta / Média / Baixa.  
 
