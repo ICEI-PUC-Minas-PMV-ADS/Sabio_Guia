@@ -138,7 +138,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
  
  <tr>
-  <td>CT-07: Verificar a vizualização dos depoimentos dos usuários</td>
+  <td>CT-07: Verificar a visualização dos depoimentos dos usuários</td>
   <td>
    <ul>
     <li>RF-010:	Permitir ao usuário visualizar depoimentos dos demais usuários.</li>
