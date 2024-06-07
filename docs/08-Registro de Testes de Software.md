@@ -45,11 +45,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-gru
   </li>
   <hr>
   <li> CT-07: Verificar a visualização dos depoimentos dos usuários.
-
+    
   Responsável: Fernanda Sayuri.
-
   
-
+  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/112204495/58fc96f6-ae55-48a4-8a39-dfae90d25140
   </li>
 
 
