@@ -3,7 +3,19 @@
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 <ol>
-  <li> CT-01: Verificar o funcionamento da funcionalidade de ampliação da fonte.
+  <li> CT-01: Verificar ...
+
+  Responsável: Nayara Aparecida.
+  
+  </li>
+  <hr>
+  <li> CT-02: Verificar ...
+
+  Responsável: César Freitas.
+  
+  </li>
+  <hr>
+  <li> CT-03: Verificar o funcionamento da funcionalidade de ampliação da fonte.
 
   Responsável: Carolina Costa.
 
@@ -14,3 +26,32 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-gru
 
   </li>
   <hr>
+  <li> CT-04: Verificar ...
+
+  Responsável: Fernando Diniz.
+
+  </li>
+  <hr>
+  <li> CT-05: Verificar ...
+
+  Responsável: Carolina Costa.
+
+  </li>
+  <hr>
+  <li> CT-06: Verificar ...
+
+  Responsável: Leonardo Costa.
+
+  </li>
+  <hr>
+  <li> CT-07: Verificar a visualização dos depoimentos dos usuários.
+
+  Responsável: Fernanda Sayuri.
+
+  
+
+  </li>
+
+
+
+  
