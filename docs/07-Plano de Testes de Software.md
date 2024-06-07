@@ -40,23 +40,26 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
 <tr>
-  <td>CT-02: Verificar ...</td>
+  <td>CT-02: Verificar se a página do perfil de usuario está funcional</td>
   <td>
    <ul>
     <li>RF-002:	Permitir ao usuário a edição de seu perfil no site.</li>
     <li>RF-009:	Permitir ao usuário a exclusão de sua conta.</li>
    </ul>
   </td>
-  <td>Verificar se ..</td>
+  <td>Verificar se ao acessar a página de perfil é possivel escolher uma nova foto de úsuario e excluir a conta.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
-    <li>...</li>
+    <li>Fazer login na conta.</li>
+    <li>Acessar a página de perfil.</li>
+    <li>Mudar a foto.</li>
+    <li>Exluir a conta.</li>
    </ol>
    </td>
-  <td>...</td>
-  <td>César Freitas</td>
+  <td>Após o login o úsuario deve ser capaz de mudar sua foto de perfil ou exluir a conta.</td>
+  <td>Marilio César</td>
  </tr>
  
  <tr>
