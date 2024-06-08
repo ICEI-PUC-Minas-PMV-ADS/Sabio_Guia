@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Carregar as informações salvas do armazenamento local, se houver
-  var savedProfileData = localStorage.getItem('profileData');
+  var savedProfileData = localStorage.getItem('userLogado');
   if (savedProfileData) {
     savedProfileData = JSON.parse(savedProfileData);
     firstNameInput.value = savedProfileData.firstName;
@@ -56,17 +56,33 @@ document.addEventListener("DOMContentLoaded", function() {
       lastName: lastNameInput.value,
       imageSrc: profileImage.src // Pode ser uma URL de dados se uma imagem foi carregada
     };
-    localStorage.setItem('profileData', JSON.stringify(profileData));
-    
-    // Atualizar o texto de saudação
-    // greetingText.textContent = "Olá " + profileData.firstName + " " + profileData.lastName;
-    
+
+    // Verificar se já existe um item 'userLogado' no localStorage
+    var storedData = localStorage.getItem('userLogado');
+    if (storedData) {
+        // Se existir, atualizar o valor do firstName
+        storedData = JSON.parse(storedData);
+        storedData.nome = profileData.firstName;
+        storedData.imageSrc = profileData.imageSrc;
+    } else {
+        // Se não existir, criar um novo objeto com o firstName
+        storedData = {
+            firstName: profileData.firstName,
+            lastName: '',
+            imageSrc: profileData.imageSrc
+        };
+    }
+
+    // Salvar os dados atualizados no localStorage
+    localStorage.setItem('userLogado', JSON.stringify(storedData));
+
     // Limpar os campos de texto
     firstNameInput.value = "";
     lastNameInput.value = "";
-    
+
     alert('Perfil salvo com sucesso!');
-  });
+});
+
 });
 
 

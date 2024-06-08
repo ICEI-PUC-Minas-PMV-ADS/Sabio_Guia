@@ -120,9 +120,26 @@
           </div>
 
     </main>
-
+    <div class="container">
+        <h2>Deixe um comentário</h2>
+        <form id="commentForm">
+            <textarea id="commentText" placeholder="Escreva seu comentário aqui..." required></textarea>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Excelente">5</label>
+                <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Bom">4</label>
+                <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Médio">3</label>
+                <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Ruim">2</label>
+                <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Péssimo">1</label>
+            </div>
+            <button type="submit">Enviar Comentário</button>
+        </form>
+    </div>
+    <div class="comments-container">
+        <h2>Comentários</h2>
+        <ul id="commentsList"></ul>
+    </div>
     <footer>
-        <div class="container">
+        <div class="container-foot">
           <img src="/src/pagina inicial/img/logo.png" alt="Logo sábio guia" class="logo">
           <p class="container-text">©2024 Sábio Guia. Todos os direitos reservados.</p>
         </div>
@@ -132,6 +149,7 @@
        <script src="../paginaCadastro/js/auth.js"></script>
        <!-- Script para alterar o tamanho da fonte -->
     <script src="../pagina inicial/fontSizeControl.js"></script>    
+    <script src="script.js"></script>
        
 </body>
 </html>

@@ -15,9 +15,24 @@ document.getElementById('commentForm').addEventListener('submit', function(e) {
     let userPhoto;
 
     if (userLoggedIn) {
-        let userData = JSON.parse(localStorage.getItem('profileData'));
-        userName = userData.firstName;
-        userPhoto = userData.imageSrc;
+        let userLogadoData = JSON.parse(userLoggedIn);
+        
+        // Se o campo 'nome' estiver presente em 'userLogado', puxe o nome do usuário
+        if (userLogadoData.nome) {
+            userName = userLogadoData.nome;
+        } else {
+            // Caso contrário, defina como usuário anônimo
+            userName = "Usuário Anônimo";
+        }
+
+        // Tentar obter a foto do perfil do 'profileData'
+        let profileData = JSON.parse(localStorage.getItem('userLogado'));
+        if (profileData && profileData.imageSrc) {
+            userPhoto = profileData.imageSrc;
+        } else {
+            // Se não houver imagem no 'profileData', use a imagem padrão
+            userPhoto = "img/User.png";
+        }
     } else {
         alert('Você precisa estar logado para comentar.');
         return;
@@ -27,9 +42,11 @@ document.getElementById('commentForm').addEventListener('submit', function(e) {
         alert('Por favor, insira um comentário.');
         return;
     }
-    // Adiciona o comentário à memória do navegador
+
+    // Adicionar o comentário ao armazenamento local
     addCommentToStorage(commentText, rating, userName, userPhoto);
-    // Atualiza a lista de comentários na página
+
+    // Exibir os comentários atualizados
     displayCommentsFromStorage();
 });
 
@@ -39,7 +56,6 @@ function addCommentToStorage(commentText, rating, userName, userPhoto) {
     comments.push(newComment);
     localStorage.setItem('comments', JSON.stringify(comments));
 }
-
 
 function displayCommentsFromStorage() {
     let comments = localStorage.getItem('comments') ? JSON.parse(localStorage.getItem('comments')) : [];
@@ -58,8 +74,6 @@ function displayCommentsFromStorage() {
         commentList.appendChild(listItem);
     });
 }
-
-
 
 // Exibe os comentários armazenados ao carregar a página
 displayCommentsFromStorage();
