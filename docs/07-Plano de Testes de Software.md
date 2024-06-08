@@ -95,7 +95,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
-    <li>...</li>
+    <li>Realizar o login</li>
+     <li>Acessar a página de Cursos</li>
+     <li>Visualizar o curso "Como adicionar um contato no WhatsApp"</li>
+      <li>Resgistrar um comentario</li>
+       <li>Realizar a avaliação</li>
+       <li>Clicar no botão "Enviar comentário"</li>
    </ol>
    </td>
   <td>...</td>
