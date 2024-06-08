@@ -122,7 +122,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>...</li>
    </ol>
    </td>
-  <td>Permitir ao usuário realizar o checklist do passo a passo</td>
+  <td>Os usuários conseguirão clicar em cada ícone de passo a passo, indicando que aquele passo foi concluído.</td>
   <td>Carolina Costa</td>
  </tr>
 
