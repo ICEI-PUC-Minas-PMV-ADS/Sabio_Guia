@@ -59,6 +59,13 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/asset
   https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/112204495/58fc96f6-ae55-48a4-8a39-dfae90d25140
   </li>
 
-
+</li>
+  <hr>
+  <li> CT-08: Verificar se a página de recuperação de senha está funcionando corretamente.
+    
+  Responsável: Nayara Aparecida.
+  
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/166317076/880c777e-1bef-42a3-8820-4dec50e16e28
+  </li>
 
   
