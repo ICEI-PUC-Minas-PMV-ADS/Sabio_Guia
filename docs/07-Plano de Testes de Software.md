@@ -20,22 +20,22 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-01: Verificar ...</td>
+  <td>CT-01: Verificar o cadastro de usuários e a recuperação de senha.</td>
   <td>
    <ul>
     <li>RF-001:	Permitir ao usuário a criação da conta.</li>
-    <li>RF-008:	Permitir ao usuário a recuperação de senha.</li>
    </ul>
   </td>
-  <td>Verificar se ...</td>
+  <td>Verificar se a página de cadastro está funcionando corretamente.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
-    <li>...</li>
+    <li>Visualizar a página Cadastro.</li>
+    <li>Preencher o formulário e clicar em "Cadastrar".</li>
    </ol>
    </td>
-  <td>...</td>
+  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Cadastrar", deve direcionar para a página de login.</td>
   <td>Nayara Aparecida</td>
  </tr>
 
@@ -55,10 +55,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Fazer login na conta.</li>
     <li>Acessar a página de perfil.</li>
     <li>Mudar a foto.</li>
-    <li>Exluir a conta.</li>
+    <li>Excluir a conta.</li>
    </ol>
    </td>
-  <td>Após o login o úsuario deve ser capaz de mudar sua foto de perfil ou exluir a conta.</td>
+  <td>Após o login o úsuario deve ser capaz de mudar sua foto de perfil ou excluir a conta.</td>
   <td>Marilio César</td>
  </tr>
  
@@ -163,6 +163,27 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </td>
   <td>Todas os depoimentos devem estar visíveis ao acessar a Página Inicial.</td>
   <td>Fernanda Sayuri</td>
+ </tr>
+
+<tr>
+  <td>CT-08: Verificar a recuperação de senha.</td>
+  <td>
+   <ul>
+    <li>RF-008:	Permitir ao usuário a recuperação de senha.</li>
+   </ul>
+  </td>
+  <td>Verificar se a página de recuperação de senha está funcionando corretamente.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Entrar.</li>
+    <li>Clicar em "Esqueci minha senha".</li>
+    <li>Preencher o formulário e clicar em "Confirmar".</li>
+   </ol>
+   </td>
+  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Confirmar", deve aparecer a mensagem "Senha alterada com sucesso".</td>
+  <td>Nayara Aparecida</td>
  </tr>
 
 
