@@ -44,7 +44,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/asset
 
   </li>
   <hr>
-  <li> CT-05: Verificar ...
+  <li> CT-05: Verificar checklist do passo a passo.
 
   Responsável: Carolina Costa.
 
