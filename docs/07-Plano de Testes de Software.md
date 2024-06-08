@@ -83,14 +83,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
 <tr>
-  <td>CT-04: Verificar se a funcionalidade de avaliar o tutorial salva a avaliação.</td>
+  <td>CT-04: Verificar se a funcionalidade de avaliar e comentar o tutorial registra a informação.</td>
   <td>
    <ul>
     <li>RF-004:	Permitir ao usuário avaliar o tutorial.</li>
     <li>RF-007:	Permitir ao usuário realizar comentários na página do tutorial.</li>
    </ul>
   </td>
-  <td>Verificar se ..</td>
+  <td>Verifique se, ao clicar no botão 'Enviar comentário', o comentário e a avaliação são registrados na página.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
