@@ -90,7 +90,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>RF-007:	Permitir ao usuário realizar comentários na página do tutorial.</li>
    </ul>
   </td>
-  <td>Verifique se, ao clicar no botão 'Enviar comentário', o comentário e a avaliação são registrados na página.</td>
+  <td>Verifique se, ao clicar no botão "Enviar comentário", o comentário e a avaliação são registrados na página.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -103,7 +103,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
        <li>Clicar no botão "Enviar comentário"</li>
    </ol>
    </td>
-  <td>...</td>
+  <td>Visualizar o registro do comentario e avalição no site</td>
   <td>Fernando Diniz</td>
  </tr>
 
