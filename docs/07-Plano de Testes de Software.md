@@ -127,21 +127,21 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-06: Verificar ...</td>
+  <td>CT-06: Verificar as informações contidas na página Sobre</td>
   <td>
    <ul>
     <li>RF-006:	Permitir ao usuário acessar a página Sobre.</li>
    </ul>
   </td>
-  <td>Verificar se ..</td>
+  <td>Verificar se o usuario possui acesso a página sobre</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
-    <li>...</li>
+    <li>Clique no item do menu de navegação "Sobre"</li>
    </ol>
    </td>
-  <td>...</td>
+  <td>Todos os usuarios deverão ter acesso a página sobre para terem maiores informações sobre nosso sistema.</td>
   <td>Leonardo Costa</td>
  </tr>
  
