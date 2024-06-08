@@ -30,6 +30,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-gru
 
   Responsável: Fernando Diniz.
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/assets/124324628/da4373f0-10eb-4113-8528-7ef0db61bebb
+
+
+
   </li>
   <hr>
   <li> CT-05: Verificar ...
