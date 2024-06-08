@@ -283,6 +283,62 @@ margin-bottom: 5px;
 text-align: left;
 }
 
+/* Botões da fonte */
+.font-buttons {
+    display: flex;
+    gap: 10px;
+    position: fixed; 
+    top: 100px; 
+    right: 300px;
+    z-index: 1000; 
+  }
+  
+  .font-button01 {
+    background-color: #415bbc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    cursor: pointer;
+    font-size: 14px; 
+    transition: background-color 0.3s;
+  }
+  .font-button02 {
+    left: 50px;
+    background-color: #415bbc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    cursor: pointer;
+    font-size: 14px; 
+    transition: background-color 0.3s;
+  }
+  
+  .font-button:hover {
+    background-color: #6985D6;
+  }
+  
+  .title{
+    color: #415bbc;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  
+  
+  .banner-container {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
 
 /*Footer*/
 
