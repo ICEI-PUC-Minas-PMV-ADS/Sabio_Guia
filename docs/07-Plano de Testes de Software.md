@@ -83,7 +83,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
 <tr>
-  <td>CT-04: Verificar ...</td>
+  <td>CT-04: Verificar se a funcionalidade de avaliar o tutorial salva a avaliação.</td>
   <td>
    <ul>
     <li>RF-004:	Permitir ao usuário avaliar o tutorial.</li>
