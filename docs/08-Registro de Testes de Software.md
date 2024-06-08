@@ -3,9 +3,13 @@
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 <ol>
-  <li> CT-01: Verificar ...
-
+  </li>
+  <hr>
+  <li> CT-01: Verificar se a página de cadastro está funcionando corretamente.
+    
   Responsável: Nayara Aparecida.
+  
+   https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/166317076/2825715c-0033-4a1f-b39b-c483f5320f82
   
   </li>
   <hr>
