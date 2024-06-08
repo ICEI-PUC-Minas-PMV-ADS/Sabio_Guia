@@ -112,6 +112,31 @@ footer {
   padding-top: 30px;
 }
 
+/* Botões da fonte */
+.font-buttons {
+  display: flex;
+  gap: 10px;
+  position: fixed; 
+  top: 100px; 
+  right: 10px;
+  z-index: 1000; 
+}
+
+.font-button {
+  background-color: #415bbc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px; 
+  cursor: pointer;
+  font-size: 14px; 
+  transition: background-color 0.3s;
+}
+
+.font-button:hover {
+  background-color: #6985D6;
+}
+
 .logo {
   height: 8rem;
   width: 12rem;

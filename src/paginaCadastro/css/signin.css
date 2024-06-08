@@ -297,6 +297,31 @@ a:hover {
   border-radius: 30px;
 }
 
+/* Botões da fonte */
+.font-buttons {
+  display: flex;
+  gap: 10px;
+  position: fixed; 
+  top: 100px; 
+  right: 10px;
+  z-index: 1000; 
+}
+
+.font-button {
+  background-color: #415bbc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px; 
+  cursor: pointer;
+  font-size: 14px; 
+  transition: background-color 0.3s;
+}
+
+.font-button:hover {
+  background-color: #6985D6;
+}
+
 /* Mensagens de erro e sucesso */
 #msgError {
   text-align: center;
