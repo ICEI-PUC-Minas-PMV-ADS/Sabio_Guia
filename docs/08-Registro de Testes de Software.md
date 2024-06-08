@@ -48,6 +48,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/asset
 
   Responsável: Carolina Costa.
 
+  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/133662274/b89af13d-6edf-4619-9875-1544f56d83a0
+
   </li>
   <hr>
   <li> CT-06: Verificar acesso a página Sobre.
