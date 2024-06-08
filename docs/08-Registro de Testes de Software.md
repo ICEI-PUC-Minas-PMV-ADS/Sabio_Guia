@@ -53,7 +53,11 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/asset
   <li> CT-06: Verificar acesso a página Sobre.
 
   Responsável: Leonardo Costa.
-  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/164433163/ff2c104c-f95d-4996-af42-400b79bdfa02
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/164433163/6676b214-95df-408f-a6d5-791e194bd872
+
+
 
 
 
