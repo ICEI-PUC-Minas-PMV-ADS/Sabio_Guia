@@ -195,9 +195,33 @@ footer {
     margin-right: 10px;
   }
 
+/* Botões para alterar tamanho da fonte */
+.font-buttons {
+    display: flex;
+    gap: 10px;
+    position: fixed; 
+    top: 100px; 
+    right: 10px;
+    z-index: 1000; 
+  }
+  
+  .font-button {
+    background-color: #415bbc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    cursor: pointer;
+    font-size: 14px; 
+    transition: background-color 0.3s;
+  }
+  
+  .font-button:hover {
+    background-color: #6985D6;
+  }
 
 .title{
-    color: #415bbc;
+    color: #f58440;
     text-align: center;
     padding: 10px;
     padding-top: 20px;
@@ -235,54 +259,66 @@ footer {
 }
 
 /*Apresentação do Tutorial*/
-.normal h3 {
-    text-align: left;
-    margin-left: 20px;
-}
-
-.boxes {
-    height: 250px;
-    border-radius: 5px;
-}
-
-.normal {
+.card-tutorial {
+    background-color:#fff9eb;
     display: flex;
-    width: 900px;
-    margin-top: 100px;
-    align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
+    max-width: 800px;
+    overflow: hidden;
+    margin: auto; /* Adicionando margem auto para centralizar */
 }
-  
-.normal p {
-    margin-left: 24px;
-    width: 150%;
+
+.title-card-tutorial {
+    margin-top: 0;
+    color: #f58440;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+} 
+
+.card-tutorial img {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    object-fit: cover; /* Fazendo com que a imagem cubra todo o espaço da caixa */
+    display: flex;
+    align-self: center;
+}
+.card-tutorial-content {
+    padding: 20px;
+    width: 70%;
+    font-size: 18px;
 }
 
 /*Checkbox passo à passo*/
-.passo-a-passo {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
+.checklist {
+    background-color: #fff; /* Adicionando fundo branco */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 90%; /* Definindo largura máxima responsiva */
+    margin: 0 auto;
+}
 
-.tutorial-container {
-    display: flex;
-    width: 86%;
-    margin-top: 100px;
-    align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    background-color: #fff;
+.checklist h2 {
+    color: #415bbc;
+    padding: 10px;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+label {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -292,6 +328,12 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.title-card {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #415bbc;
 }
 
 .card {
