@@ -26,7 +26,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-gru
 
   </li>
   <hr>
-  <li> CT-04: CT-04: Verificar se a funcionalidade de avaliar e comentar o tutorial registra a informação.
+  <li> CT-04: Verificar se a funcionalidade de avaliar e comentar o tutorial registra a informação.
 
   Responsável: Fernando Diniz.
 
