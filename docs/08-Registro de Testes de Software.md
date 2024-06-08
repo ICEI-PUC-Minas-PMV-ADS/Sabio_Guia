@@ -54,6 +54,11 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/asset
 
   Responsável: Leonardo Costa.
   https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/164433163/ff2c104c-f95d-4996-af42-400b79bdfa02
+
+
+
+
+  
   </li>
   <hr>
   <li> CT-07: Verificar a visualização dos depoimentos dos usuários.
