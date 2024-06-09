@@ -1,5 +1,3 @@
-// Profile.js
-
 document.addEventListener("DOMContentLoaded", function() {
   var uploadButton = document.getElementById('upload-image');
   var profileImage = document.getElementById('profile-image');
@@ -8,10 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
   var saveButton = document.getElementById('save-button');
   var greetingText = document.getElementById('greeting-text');
   var userName = document.getElementById('userName'); // Adicionado para exibir o nome do usuário
-
-  // Limpar os campos ao carregar a página
-  firstNameInput.value = "";
-  lastNameInput.value = "";
 
   // Carregar as informações do usuário logado
   var userLogado = JSON.parse(localStorage.getItem('userLogado'));
@@ -25,16 +19,9 @@ document.addEventListener("DOMContentLoaded", function() {
     window.location.href = '../html/signin.html';
   }
 
-  // Carregar as informações salvas do armazenamento local, se houver
-  var savedProfileData = localStorage.getItem('userLogado');
-  if (savedProfileData) {
-    savedProfileData = JSON.parse(savedProfileData);
-    firstNameInput.value = savedProfileData.firstName;
-    lastNameInput.value = savedProfileData.lastName;
-    if (savedProfileData.imageSrc) {
-      profileImage.src = savedProfileData.imageSrc;
-    }
-    greetingText.textContent = "Olá " + savedProfileData.firstName + " " + savedProfileData.lastName;
+  // Carregar a imagem do usuário, se houver, ao carregar a página
+  if (userLogado && userLogado.imageSrc) {
+    profileImage.src = userLogado.imageSrc;
   }
 
   // Carregar a imagem quando o usuário selecionar um arquivo
@@ -52,62 +39,24 @@ document.addEventListener("DOMContentLoaded", function() {
   // Salvar as informações no armazenamento local ao clicar no botão Salvar
   saveButton.addEventListener('click', function() {
     var profileData = {
-      firstName: firstNameInput.value,
-      lastName: lastNameInput.value,
-      imageSrc: profileImage.src // Pode ser uma URL de dados se uma imagem foi carregada
+      nome: firstNameInput.value + ' ' + lastNameInput.value,
+      imageSrc: profileImage.src
     };
 
-    // Verificar se já existe um item 'userLogado' no localStorage
-    var storedData = localStorage.getItem('userLogado');
-    if (storedData) {
-        // Se existir, atualizar o valor do firstName
-        storedData = JSON.parse(storedData);
-        storedData.nome = profileData.firstName;
-        storedData.imageSrc = profileData.imageSrc;
-    } else {
-        // Se não existir, criar um novo objeto com o firstName
-        storedData = {
-            firstName: profileData.firstName,
-            lastName: '',
-            imageSrc: profileData.imageSrc
-        };
-    }
-
-    // Salvar os dados atualizados no localStorage
-    localStorage.setItem('userLogado', JSON.stringify(storedData));
-
-    // Limpar os campos de texto
-    firstNameInput.value = "";
-    lastNameInput.value = "";
+    localStorage.setItem('userLogado', JSON.stringify(profileData));
 
     alert('Perfil salvo com sucesso!');
-});
+  });
 
 });
 
-
-/// Função para excluir os dados do usuário e sair
+// Função para excluir os dados do usuário e sair
 function excluirConta() {
-  // Pegando a lista de usuários do localStorage
-  let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
-
-  // Encontrando o índice do usuário logado
-  let userLogado = JSON.parse(localStorage.getItem('userLogado'));
-  const emailLogado = userLogado.email; // Pegando o email do usuário logado
-  const index = listaUser.findIndex(user => user.emailCad === emailLogado);
-
-  // Se o usuário for encontrado, remova-o da lista
-  if (index !== -1) {
-    listaUser.splice(index, 1);
-    localStorage.setItem('listaUser', JSON.stringify(listaUser));
-    // Limpar dados de login do localStorage
-    localStorage.removeItem('userLogado');
-    alert('Conta excluída com sucesso!');
-    // Redirecionar para a página de login ou outra página apropriada
-    window.location.href = '../html/signin.html';
-  } else {
-    alert('Usuário não encontrado!');
-  }
+  // Limpar dados de login do localStorage
+  localStorage.removeItem('userLogado');
+  alert('Conta excluída com sucesso!');
+  // Redirecionar para a página de login ou outra página apropriada
+  window.location.href = '../html/signin.html';
 }
 
 // Adicionando evento de clique ao botão de exclusão
@@ -115,4 +64,3 @@ const btnExcluirConta = document.querySelector('#deleteAccount');
 if (btnExcluirConta) {
   btnExcluirConta.addEventListener('click', excluirConta);
 }
-
