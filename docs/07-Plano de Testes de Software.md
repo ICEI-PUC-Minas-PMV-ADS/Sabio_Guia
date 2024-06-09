@@ -120,8 +120,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
-    <li>Acessar o navegador.</li>
-    <li>Informar o endereço do site.</li>
     <li>Visualizar as páginas dos cursos.</li>
     <li>Clicar em cada item realizado do passo a passo.</li>
    </ol>
