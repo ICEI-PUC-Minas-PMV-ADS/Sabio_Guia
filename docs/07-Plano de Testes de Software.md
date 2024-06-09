@@ -108,13 +108,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-05: Verificar ...</td>
+  <td>CT-05: Verificar o checklist do passo a passo dos cursos.
+</td>
   <td>
    <ul>
     <li>RF-005:	Permitir ao usuário realizar o checklist de passo a passo nos tutoriais.</li>
    </ul>
   </td>
-  <td>Verificar se ..</td>
+  <td>Verificar se o campo de checklist está recebendo o clique de cada item do passo a passo.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
