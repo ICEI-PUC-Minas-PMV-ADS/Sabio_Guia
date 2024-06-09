@@ -13,9 +13,13 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   
   </li>
   <hr>
-  <li> CT-02: Verificar ...
+  <li> CT-02: Verificar se a página do perfil de usuario está funcional	
 
-  Responsável: César Freitas.
+  Responsável: Marilio César Freitas.
+
+  
+  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/assets/109766719/c46bb417-85b8-41c8-bca9-f08fcb2af5c7
+  
   
   </li>
   <hr>
