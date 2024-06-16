@@ -3,7 +3,8 @@
 
 1. Apresentação de slides
 
-[Apresentação - Sábio Guia.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/files/14877330/Sabio.Guia.-.Apresentacao.pdf)
+[Sábio Guia - Apresentação.pdf](https://github.com/user-attachments/files/15855695/Sabio.Guia.-.Apresentacao.pdf)
+
 
 2. Vídeo de apresentação do projeto
 
