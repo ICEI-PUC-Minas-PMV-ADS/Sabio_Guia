@@ -3,7 +3,8 @@
 
 1. Apresentação de slides
 
-[Sábio Guia - Apresentação.pdf](https://github.com/user-attachments/files/15855695/Sabio.Guia.-.Apresentacao.pdf)
+[Sábio Guia - Apresentação.pdf](https://github.com/user-attachments/files/15937506/Sabio.Guia.-.Apresentacao.pdf)
+
 
 
 2. Vídeo de apresentação do projeto
