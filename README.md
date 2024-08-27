@@ -21,10 +21,6 @@ O objetivo geral do Sábio Guia é propiciar a melhoria da qualidade de vida das
 
 * Viviâne de Almeida Tôrres
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
 # Documentação
 
 <ol>
