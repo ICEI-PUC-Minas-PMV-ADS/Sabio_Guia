@@ -37,7 +37,7 @@ O objetivo geral do Sábio Guia é propiciar a melhoria da qualidade de vida das
 
 # Hospedagem
 
-A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/src/pagina%20inicial/index.html">aqui</a> para acessá-lo. 
+A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/Sabio_Guia/src/pagina%20inicial/index.html">aqui</a> para acessá-lo. 
 
 # Código-Fonte
 
