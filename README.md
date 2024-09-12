@@ -28,7 +28,7 @@ O objetivo geral do Sábio Guia é propiciar a melhoria da qualidade de vida das
 <li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
 <li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
 <li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
-<li><a href="docs/05-Template Padrão da Aplicação.md"> Template Padrão da Aplicação</a></li>
+<li><a href="docs/05-Template Padrão do Site.md"> Template Padrão da Aplicação</a></li>
 <li><a href="docs/06-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
 <li><a href="docs/07-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
 <li><a href="docs/08-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
