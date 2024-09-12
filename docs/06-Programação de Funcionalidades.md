@@ -37,7 +37,7 @@ RF-001: O site deve permitir ao usuário criação de conta.
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/src/paginaCadastro/html/signup.html
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/Sabio_Guia/src/paginaCadastro/html/signup.html
 
 Ao clicar em “Cadastro” no canto superior direito da tela, terá acesso a página de cadastro.
 
@@ -72,7 +72,7 @@ RF-002: Permitir ao usuário a edição de seu perfil no site.
 
 #### Instruções de acesso
 
-1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/src//Perfil%20De%20Usuario/index.html
+1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/Sabio_Guia//src/Perfil%20De%20Usuario/index.html
 2.	Ao fazer login com o úsuario terá acesso a página de perfil.
 
 <hr>
@@ -197,7 +197,7 @@ Exemplo da Tela Sobre:
 
 
 #### Instruções de acesso
-1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/src//paginaSobre/index.html
+1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/Sabio_Guia/src//paginaSobre/index.html
 
 <hr>
 
@@ -230,7 +230,7 @@ RF-008	Permitir ao usuário a recuperação de senha.
 
 ### Instruções de acesso
 
-1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/src//paginaCadastro/html/password.html
+1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/Sabio_Guia/src//paginaCadastro/html/password.html
 	
 2.	Clicar na opção “Entrar” no canto superior direito da tela (na barra de Menu), e terá acesso ao clicar em "Esqueci minha senha".
 
@@ -297,6 +297,6 @@ RF-008	Permitir ao usuário visualizar depoimentos dos demais usuários.
 
 ### Instruções de acesso
 
-1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo3-sabio-guia/src//pagina%20inicial/index.html
+1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/Sabio_Guia/src/pagina%20inicial/index.html
 	
 <hr>
